@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>BIMcaster</title>
+    <link rel="self" type="application/atom+xml" href="https://bimcaster.framebuffer.cl/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://bimcaster.framebuffer.cl"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-30T00:00:00+00:00</updated>
+    <id>https://bimcaster.framebuffer.cl/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Direwolf v0.2-alpha: the pack is back</title>
+        <published>2025-06-30T00:00:00+00:00</published>
+        <updated>2025-06-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bimcaster.framebuffer.cl/posts/20250630-direwolf/"/>
+        <id>https://bimcaster.framebuffer.cl/posts/20250630-direwolf/</id>
+        
+        <content type="html" xml:base="https://bimcaster.framebuffer.cl/posts/20250630-direwolf/">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;Framebuffers&#x2F;Framebuffers.github.io&#x2F;cfd11c927a16470790c5d9c6cf5ef922eafde112&#x2F;posts&#x2F;20250630-direwolf-cover.png&quot; alt=&quot;Welcome to the forest.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Artificial intelligence is like an axe. Using one without the necessary experience is hard, even dangerous, but it makes you feel powerful. As experience is gained, the more precise and effective its use becomes. It’s up to you how you use it.
+This sense of empowerment comes at a cost: skipping the training and go straight to chopping. And so, we forget how to use the axe itself.&lt;&#x2F;p&gt;
+&lt;p&gt;It is fundamental to analyze, comprehend and protocol the use of data, both used between BIM applications and outside their realm. Not knowing the fundamentals of artificial intelligence, on a very general way, makes its use irresponsible. Fundamentally, we need to work on our primitives.&lt;&#x2F;p&gt;
+&lt;p&gt;What is data? What does AI mean to &lt;strong&gt;us?&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;memo-tl-dr&quot;&gt;📝 TL;DR&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#memo-tl-dr&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;This framework proposes a single cohesive approach to talk between BIM models and&#x2F;or AI models. It translates data into a common language, interoperable with any software that implements this protocol. By normalizing information, it won’t matter which AI model or software version you use, it will just work.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;thinking-theory-of-operation&quot;&gt;🤔 Theory of Operation&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#thinking-theory-of-operation&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;There are very simple answers to the questions mentioned above.
+The AI models we use work by predict the next word we will type, based on statistics and algorithms, using the information we feed these models with. Using these &lt;em&gt;primitives&lt;&#x2F;em&gt;, models can become tools that comprehend our &lt;em&gt;natural speech&lt;&#x2F;em&gt; to perform these tasks. They understand &lt;em&gt;us.&lt;&#x2F;em&gt;  This knowledge, alongside interfaces that harness the power of this model, becomes a tool to assist, generate and check.&lt;&#x2F;p&gt;
+&lt;p&gt;During this whole process, data flows back and forth, alongside metadata about how, when, where and what is flowing. This data must be processed, cleaned, and stored for it to be useful.&lt;&#x2F;p&gt;
+&lt;p&gt;Direwolf provides a way to obtain, process and transmit this information, in such way that is both compliant with industry-standards and bespoke to BIM requirements.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wolf-direwolf-wolfden-wolfpack-and-hunter&quot;&gt;🐺 Direwolf, Wolfden, Wolfpack and Hunter&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#wolf-direwolf-wolfden-wolfpack-and-hunter&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Direwolf coordinates and obtains Wolfpack messages inside Wolfden to be transmitted and received by Hunter. An API host, database, protocol and server; respectively. In essence, this architecture mirrors what a Web server is, at an application’s scale.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Direwolf connects directly with its host’s APIs (for example, Autodesk Revit), acting as a mediator between the “inside” (the API), and “outside” (Direwolf).
+&lt;ul&gt;
+&lt;li&gt;It also handles all data processing requirements to have usable data at this level of the chain. Whether is raw or clean data, it is Direwolf’s task to deal with it.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Wolfden stores all the information generated by Direwolf inside a RAM-based cache. It uses its own kind of unique identifier, a CUID, to tag, track and retrieve information.
+&lt;ul&gt;
+&lt;li&gt;It exposes four API’s: create, read, update and delete. Nothing more.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Hunter is a server based on a hybrid architecture (REST and JSON-RCP2.0) that communicates Direwolf with a network: local or on the Internet.
+&lt;ul&gt;
+&lt;li&gt;It has its own RAM-based cache, useful to process data before passing it onto Wolfden.&lt;&#x2F;li&gt;
+&lt;li&gt;Its hybrid nature comes in the way of a translation layer, where RPC2.0 endpoints are exposed to the Web and, on the inside, they have access to the same API as Wolfden. The database is never exposed raw to the exterior.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Wolfpack is the common language of all operations, both inside and outside the Direwolf ecosystem.
+&lt;ul&gt;
+&lt;li&gt;Wolfpack messages present on any of these three entities are compatible with MCP (Model Context Protocol). This is the common language between LLMs (AI models).&lt;&#x2F;li&gt;
+&lt;li&gt;A Wolfpack message can also carry data to and from any kind of software, mainly designed for the BIM realm.&lt;&#x2F;li&gt;
+&lt;li&gt;It has a URI schema (like a website link, but specialized) to uniquely identify any property, element, parameter, task or concept available on the entire AEC world.&lt;&#x2F;li&gt;
+&lt;li&gt;It implements its own unique identification schema based on Collision-resistant Unique Identifiers, or CUID.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;identification-card-cuid&quot;&gt;🪪 CUID&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#identification-card-cuid&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;One of the most important innovations of Wolfpacks are the CUID. They balance the uniqueness and safety of a UUID, yet it implements encoded metadata, saving storage and adding a tag system.&lt;&#x2F;p&gt;
+&lt;p&gt;However, &lt;strong&gt;it is not meant to be cryptographically secure.&lt;&#x2F;strong&gt; It is based on CUID v1, and in some implementations, it uses the fingerprint and counter field to store metadata (like Autodesk Revit). This implementation has security vulnerabilities. For secure operations, CUID v2 is recommended.&lt;&#x2F;p&gt;
+&lt;p&gt;A CUID has four (4) parts:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A timestamp&lt;&#x2F;li&gt;
+&lt;li&gt;A counter
+&lt;ul&gt;
+&lt;li&gt;In Autodesk Revit, it encodes the unique identifier of the current file version as a Base36 truncated value.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;A fingerprint
+&lt;ul&gt;
+&lt;li&gt;In Autodesk Revit, it encodes the Document’s Creation GUID as a Base36 truncated value.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;A random string, of variable length.
+&lt;ul&gt;
+&lt;li&gt;In the case of Direwolf, the default is a 16-character long random string.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;globe-with-meridians-uri&quot;&gt;🌐 URI&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#globe-with-meridians-uri&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Wolfpack implements a system based on Unique Resource Identifiers (URIs) to create a virtual path to access any kind of resource inside an API.
+The schema follows this pattern:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;uri&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-uri &quot;&gt;&lt;code class=&quot;language-uri&quot; data-lang=&quot;uri&quot;&gt;&lt;span&gt; wolfpack:&#x2F;&#x2F;[developer hostname, in reverse domain format]-[version tag]&#x2F;[hierarchical]&#x2F;[path]&#x2F;[to]&#x2F;[object]?[an operation identifying character]=[operation, without spaces, as lower]&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Where the hostname&#x27;s reverse domain schema follows this example:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;uri&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-uri &quot;&gt;&lt;code class=&quot;language-uri&quot; data-lang=&quot;uri&quot;&gt;&lt;span&gt;wolfpack:&#x2F;&#x2F;com.appname.manufacturer-version&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;wolfpack:&#x2F;&#x2F;org.standariztionbody-standard.name&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;wolfpack:&#x2F;&#x2F;std.standardname-version&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;em&gt;Where std is shorthand for standard.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This taxonomical system proposes a familiar, proven and extensible schema to address anything, anywhere, no matter the implementation behind.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gear-processing&quot;&gt;⚙️ Processing&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#gear-processing&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;In a future blog post, I will detail the engine’s theory of operation. At blazingly fast speeds, it can hunt hundreds of thousands of records in milliseconds, serialize an entire Revit document in less than a second, or create a ready-to-go MCP prompt to query an AI model at any stage of the process: frontend, database, web server—anything.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;Framebuffers&#x2F;Framebuffers.github.io&#x2F;ffcb9c49d469bdf254e9a2737e2fde4d4718d432&#x2F;content&#x2F;posts&#x2F;20250630-direwolf-cover2.png&quot; alt=&quot;Run through the forest&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;minidisc-the-software&quot;&gt;💽 The software&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#minidisc-the-software&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;This is not a finalized product, nor it will provide much more than just a JSON. Direwolf is a very technical project in nature, therefore it will take a while until a usable product exists.&lt;&#x2F;p&gt;
+&lt;p&gt;What is here, is an API to interact with Direwolf and all its components. Feel free to fork this repo and have some fun with it!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;warning-disclaimer&quot;&gt;⚠️ Disclaimer&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#warning-disclaimer&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+And I am not responsible of misuse of your API key.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;check-box-with-check-prerequisites&quot;&gt;☑️ Prerequisites&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#check-box-with-check-prerequisites&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;This repository contains a proof of concept for:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Direwolf Engine for Revit (2025 and up).&lt;&#x2F;li&gt;
+&lt;li&gt;Definitions for both Direwolf and Revit.&lt;&#x2F;li&gt;
+&lt;li&gt;Revit frontend with a series of tests.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;To compile, you need:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rider or Visual Studio
+&lt;ul&gt;
+&lt;li&gt;This was developed with Rider, so it might produce better results.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Autodesk Revit (2025+)
+&lt;ul&gt;
+&lt;li&gt;Needed to compile Direwolf.Revit.dll&lt;&#x2F;li&gt;
+&lt;li&gt;Implements Nice3point NuGet packages for dependencies.&lt;&#x2F;li&gt;
+&lt;li&gt;Direwolf is independent of the plugin that implements it. All it cares about is that you pass a Document as a parameter. It can run both inside an Application or a Command.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;To use, you need:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Autodesk Revit (2025+)&lt;&#x2F;li&gt;
+&lt;li&gt;The Direwolf.Revit.dll and its manifest file installed (instructions below).&lt;&#x2F;li&gt;
+&lt;li&gt;Claude Desktop and your API key.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;man-computer-available-demos&quot;&gt;👨‍💻 Available demos&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#man-computer-available-demos&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;The tests available are:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Serialize the whole document as a Wolfpack, directly from the Document, to JSON.&lt;&#x2F;li&gt;
+&lt;li&gt;Serialize the whole document as a Wolfpack, &lt;strong&gt;directly from the Wolfden&lt;&#x2F;strong&gt; (the RAM-based cache), to JSON.&lt;&#x2F;li&gt;
+&lt;li&gt;Serialize the currently selected element&#x27;s data to JSON.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;no-mouth-fog-what-is-not-available&quot;&gt;😶‍🌫️ What is not available&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#no-mouth-fog-what-is-not-available&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP integration.
+&lt;ul&gt;
+&lt;li&gt;The server still needs some work, mostly related with some bugs in the implementation.&lt;&#x2F;li&gt;
+&lt;li&gt;It might be spun off the C# codebase to use a TypeScript-based stack. It is &lt;strong&gt;much&lt;&#x2F;strong&gt; easier this way, than doing it 100% C#.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Schedules integration.
+&lt;ul&gt;
+&lt;li&gt;Needs more debugging.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;hammer-support&quot;&gt;🔨 Support&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#hammer-support&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;framebuffers&#x2F;direwolf&quot;&gt;Click here to access the GitHub repository.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is just a conceptual protocol. It is not ready for any production environment, and I am not responsible for its use on production Documents or bricking a Revit installation.  However, if you do, I’d love to hear from you by submitting an issue on this repository. I can’t test every single edge case or platform.&lt;&#x2F;p&gt;
+&lt;p&gt;If you’re interested in Direwolf, feel free to create a fork of this repository and play with it! If you want to support the project, you can submit a pull request. This is a passion project I want to share with the world. And if there’s interest for it, I’m glad to help make Direwolf a complete platform.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Search</title>
+        <published>2024-02-27T00:00:00+00:00</published>
+        <updated>2024-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bimcaster.framebuffer.cl/search/"/>
+        <id>https://bimcaster.framebuffer.cl/search/</id>
+        
+        <content type="html" xml:base="https://bimcaster.framebuffer.cl/search/"></content>
+        
+    </entry>
+</feed>
