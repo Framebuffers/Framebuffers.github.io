@@ -80,7 +80,7 @@ insert_anchor_links = "none"
 [extra]
 
 [extra.papermod]
-title = "PaperMod"
+title = "BIMcaster"
 default_theme = "auto"
 theme = "light"
 language_direction = "auto"
