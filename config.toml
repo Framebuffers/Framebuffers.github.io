@@ -94,14 +94,14 @@ show_post_nav_links = true
 show_post_meta = true
 default_toc_open = false
 show_post_edit_button = false
-edit_post_url = "https://github.com/cydave/zola-theme-papermod/tree/master"
+edit_post_url = "https://github.com/Framebuffers/Framebuffers.github.io/tree/master"
 #copyright = ""
 date_format = "%Y-%m-%d"
 navigation = [
     { url = "$BASE_URL/archive", title = "Archive" },
     { url = "$BASE_URL/tags", title = "Tags" },
     { url = "$BASE_URL/search", title = "Search" },
-    { url = "https://getzola.org/", title = "Zola", is_external = true }
+    # { url = "https://getzola.org/", title = "Zola", is_external = true }
 ]
 
 home_title = "BIMcaster"
