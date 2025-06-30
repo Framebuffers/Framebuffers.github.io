@@ -8,6 +8,7 @@ minify_html = true
 taxonomies = [
     { name = "tags", feed = true }
 ]
+theme = "papermod"
 [search]
 # Whether to include the title of the page/section in the index
 include_title = true
