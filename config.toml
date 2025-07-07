@@ -1,4 +1,4 @@
-base_url = "https://bimcaster.framebuffer.cl"
+base_url = "https://bimcaster.com"
 title = "BIMcaster"
 compile_sass = true
 build_search_index = true 
