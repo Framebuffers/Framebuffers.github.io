@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://bimcaster.com/</loc>
+    </url>
+    <url>
+        <loc>https://bimcaster.com/archive/</loc>
+    </url>
+    <url>
+        <loc>https://bimcaster.com/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://bimcaster.com/posts/</loc>
+    </url>
+    <url>
+        <loc>https://bimcaster.com/posts/20250630-direwolf/</loc>
+        <lastmod>2025-06-30</lastmod>
+    </url>
+    <url>
+        <loc>https://bimcaster.com/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://bimcaster.com/search/</loc>
+        <lastmod>2024-02-27</lastmod>
+    </url>
+    <url>
+        <loc>https://bimcaster.com/tags/</loc>
+    </url>
+    <url>
+        <loc>https://bimcaster.com/tags/direwolf/</loc>
+    </url>
+</urlset>
