@@ -18,10 +18,6 @@ def generate_oembed_files(page_data: dict) -> None:
     with open(f"{page_data['path']}/oembed.json", 'w') as f:
         json.dump(oembed_data, f)
     
-<<<<<<< HEAD
-=======
-    # Generate XML
->>>>>>> refs/remotes/origin/main
     root = ET.Element("oembed")
     for key, value in oembed_data.items():
         if key == "html":
