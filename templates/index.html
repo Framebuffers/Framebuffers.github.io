@@ -1,15 +1,16 @@
 {% import "macros/social_icon.svg.html" as macro_social -%}
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="{{ config.extra.papermod.language_direction }}">
-<link rel="alternate" type="application/json+oembed" 
-      href="{{ get_url(path=page.path) }}oembed.json" 
-      title="{{ page.title }}">
-<link rel="alternate" type="text/xml+oembed" 
-      href="{{ get_url(path=page.path) }}oembed.xml" 
-      title="{{ page.title }}">
+
 <head>
     {% block head %}
     {% include "partials/head.html" %}
+    <link rel="alternate" type="application/json+oembed" 
+        href="{{ get_url(path=page.path) }}oembed.json" 
+        title="{{ page.title }}">
+    <link rel="alternate" type="text/xml+oembed" 
+        href="{{ get_url(path=page.path) }}oembed.xml" 
+        title="{{ page.title }}">
     {% endblock %}
 </head>
 <body class="{% if section or term or taxonomy %}list {% endif %}{% if config.extra.papermod.theme == 'dark' %} dark{% endif %}" id="top">
