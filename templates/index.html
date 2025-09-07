@@ -1,13 +1,5 @@
 {% import "macros/social_icon.svg.html" as macro_social -%}
 <!DOCTYPE html>
-<script>
-class OEmbedProcessor {
-    static async process(url) {
-        const response = await fetch(`/api/oembed?url=${encodeURIComponent(url)}`);
-        return response.ok ? await response.json() : null;
-    }
-}
-</script>
 <html lang="{{ lang }}" dir="{{ config.extra.papermod.language_direction }}">
 <head>
     {% block head %}
@@ -29,3 +21,11 @@ class OEmbedProcessor {
     {% endblock %}
 </body>
 </html>
+<script>
+class OEmbedProcessor {
+    static async process(url) {
+        const response = await fetch(`/api/oembed?url=${encodeURIComponent(url)}`);
+        return response.ok ? await response.json() : null;
+    }
+}
+</script>
