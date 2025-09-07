@@ -10,7 +10,7 @@ These are the thoughts I made when I did my first game jam: Brackeys 12. It's no
 
 # i did a game in less than a day
 
-![](premonition-5.png)
+![](./20240916-premonition/premonition-5.png)
 
 And you can play it, right now.
 *not endorsed by cohost at all. it just happens to be pretty on topic.
@@ -26,7 +26,7 @@ Please go rate it on the link above, and please _be absolutely legit honest_ wit
 
 ## Summary
 
-![](premonition-4.png)
+![](./20240916-premonition/premonition-4.png)
 
 You're in your house, surrounded by the calm of your memories, stored inside each of the things you own. Before you know it, they start disappearing until you are alone. And all you have left are the fleeting memories, and the realisation that these might go away.
 
@@ -34,7 +34,7 @@ Losing your mind is the most terrifying storm you can go through.
 
 ## Gameplay loop
 
-![](premonition-7.png)
+![](./20240916-premonition/premonition-7.png)
 
 - You are inside a house. It's full of things.
   - Get near them and some text will appear in the top-right corner. 
@@ -62,7 +62,7 @@ Losing your mind is the most terrifying storm you can go through.
 
 ### The Subway approach
 
-![](premonition-1.png)
+![](./20240916-premonition/premonition-1.png)
 
 <p style="color: white; font-size: 14px; font-weight: bold; text-align: center">
 Spend your time building ingredients to cook different meals, but keep your focus on makind sandwiches.
@@ -84,7 +84,7 @@ But Frame, how did this impact your game?
 
 ### Playing by ear...
 
-![](premonition-2.png)
+![](./20240916-premonition/premonition-2.png)
 
 I did not read _anything on what to do or don't on these kinds of competitions._ I did not learn the _axioms, laws, canons and customs_ of game development. I did not learn the sheet to this tune. **I played 100% by ear.**
 
@@ -224,7 +224,7 @@ Heh.
 
 ## something something perfection
 
-![](premonition-6.png)
+![](./20240916-premonition/premonition-6.png)
 
 My game has a couple bugs. Big ones. Ones that I could not fix on time. It's now more of a tech demo than it was when I compiled it. Something happened, and I got trolled last minute. But it's not the first time I had this happen. And I am at peace with that.
 
@@ -240,7 +240,7 @@ I take that as a W on me on visuals, at least.
 
 ## The future
 
-![](premonition-8.png)
+![](./20240916-premonition/premonition-8.png)
 
 First, this is gonna go somewhere else. I don't want to lose it. 
 
