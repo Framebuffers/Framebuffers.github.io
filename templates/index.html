@@ -29,3 +29,9 @@ class OEmbedProcessor {
     }
 }
 </script>
+<link rel="alternate" type="application/json+oembed" 
+      href="{{ get_url(path=page.path) }}oembed.json" 
+      title="{{ page.title }}">
+<link rel="alternate" type="text/xml+oembed" 
+      href="{{ get_url(path=page.path) }}oembed.xml" 
+      title="{{ page.title }}">

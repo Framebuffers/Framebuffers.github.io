@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: 'checkout'
         uses: actions/checkout@v4
+      - name: Generate oEmbed files
+        run: python scripts/generate_oembed.py
       - name: 'build'
         uses: shalzz/zola-deploy-action@master
         env:
@@ -19,6 +21,8 @@ jobs:
     steps:
       - name: 'checkout'
         uses: actions/checkout@v4
+      - name: Generate oEmbed files
+        run: python scripts/generate_oembed.py
       - name: 'build and deploy'
         uses: shalzz/zola-deploy-action@master
         env:
