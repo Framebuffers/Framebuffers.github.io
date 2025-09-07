@@ -4,8 +4,8 @@
 
 <head>
     {% block head %}
+    {% block extra_head %}{% endblock extra_head %}
     {% include "partials/head.html" %}
-  
     {% endblock %}
 </head>
 <body class="{% if section or term or taxonomy %}list {% endif %}{% if config.extra.papermod.theme == 'dark' %} dark{% endif %}" id="top">
