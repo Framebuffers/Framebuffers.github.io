@@ -1,5 +1,5 @@
 base_url = "https://framebuffer.cl"
-title = "BIMcaster"
+title = "Framebuffer"
 compile_sass = true
 build_search_index = true 
 generate_feeds = true
@@ -104,8 +104,8 @@ navigation = [
     # { url = "https://getzola.org/", title = "Zola", is_external = true }
 ]
 
-home_title = "BIMcaster"
-home_content = "<br><b>Building Information Broadcaster</b>, a blog about the bleeding edge of BIM"
+home_title = "Framebuffer"
+home_content = "<br>software sorcerer, architect. topics: programming, computers, design.</br>"
 social_icons = [
     { url = "https://github.com/Framebuffers", title = "GitHub", icon = "github" },
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
