@@ -111,7 +111,7 @@ social_icons = [
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
 
-[params.assets]
+[assets]
 favicon = "/icons/favicon.ico"
 favicon16x16 = "/icons/favicon-16x16.png"
 favicon32x32 = "/icons/favicon-32x32.png"
