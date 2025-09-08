@@ -64,7 +64,7 @@ definition_list = false
 # Whether to set decoding="async" and loading="lazy" for all images
 # When turned on, the alt text must be plain text.
 # For example, `![xx](...)` is ok but `![*x*x](...)` isn’t ok
-lazy_async_image = false
+lazy_async_image = true
 
 # Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
 bottom_footnotes = true
@@ -75,7 +75,7 @@ bottom_footnotes = true
 # This value can be "left", "right", "heading" or "none".
 # "heading" means the full heading becomes the text of the anchor.
 # See "Internal links & deep linking" in the documentation for more information.
-insert_anchor_links = "none"
+insert_anchor_links = "heading"
 
 [extra]
 
@@ -110,7 +110,10 @@ social_icons = [
     { url = "https://github.com/Framebuffers", title = "GitHub", icon = "github" },
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
-favicon = "/favicon.ico"
-favicon16 = "/favicon-16x16.png"  
-favicon32 = "/favicon-32x32.png"
-apple_touch_icon = "/apple-touch-icon.png"
+
+[params.assets]
+favicon = "/icons/favicon.ico"
+favicon16x16 = "/icons/favicon-16x16.png"
+favicon32x32 = "/icons/favicon-32x32.png"
+apple_touch_icon = "/icons/apple-touch-icon.png"
+safari_pinned_tab = "/icons/safari-pinned-tab.svg"
