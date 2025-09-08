@@ -1,0 +1,101 @@
+<!doctype html><html dir=auto lang=en><head><meta charset=utf-8><meta content="IE=edge" http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport><meta content="index, follow" name=robots><title>Are the computer scenes in The Net (1995) real?</title><meta content="programming, technology, design, retrotech, direwolf, gamedev, premonition, retro-tech, macnosy" name=keywords><meta name=description><link href=https://framebuffer.cl/posts/20240716-thenet/ rel=canonical><link href=https://framebuffer.cl/css/includes/scroll-bar.css rel=stylesheet><link href=https://framebuffer.cl/css/styles.css rel=stylesheet><link href=https://framebuffer.cl/css/override.css rel=stylesheet><link href=https://framebuffer.cl/atom.xml rel=alternate title=RSS type=application/atom+xml><noscript><style>#theme-toggle,.top-link{display:none}</style> <style>@media (prefers-color-scheme:dark){:root{--theme:#1d1e20;--entry:#2e2e33;--primary:#dadadb;--secondary:#9b9c9d;--tertiary:#414244;--content:#c4c4c5;--hljs-bg:#2e2e33;--code-bg:#37383e;--border:#333}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><body id=top><script>if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }</script><header class=header><nav class=nav><div class=logo><a title="Framebuffer (Alt + H)" accesskey=h href=https://framebuffer.cl> Framebuffer </a><div class=logo-switches><button title="(Alt + T)" accesskey=t id=theme-toggle><svg viewbox="0 0 24 24" fill=none height=18 id=moon stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=24 xmlns=http://www.w3.org/2000/svg><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg viewbox="0 0 24 24" fill=none height=18 id=sun stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=24 xmlns=http://www.w3.org/2000/svg><circle cx=12 cy=12 r=5></circle><line x1=12 x2=12 y1=1 y2=3></line><line x1=12 x2=12 y1=21 y2=23></line><line x1=4.22 x2=5.64 y1=4.22 y2=5.64></line><line x1=18.36 x2=19.78 y1=18.36 y2=19.78></line><line x1=1 x2=3 y1=12 y2=12></line><line x1=21 x2=23 y1=12 y2=12></line><line x1=4.22 x2=5.64 y1=19.78 y2=18.36></line><line x1=18.36 x2=19.78 y1=5.64 y2=4.22></line></svg></button><ul class=lang-switch><li></ul></div></div><ul id=menu><li><a href=https://framebuffer.cl/archive title=Archive> <span>Archive</span> </a><li><a href=https://framebuffer.cl/tags title=Tags> <span>Tags</span> </a><li><a href=https://framebuffer.cl/search title=Search> <span>Search</span> </a></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://framebuffer.cl>Home</a> »  <a href=https://framebuffer.cl/posts/>Posts</a> »  <a href=https://framebuffer.cl/posts/20240716-thenet/>Are the computer scenes in The Net (1995) real?</a></div><h1 class=post-title>Are the computer scenes in The Net (1995) real?</h1><div class=post-meta><span title="2024-07-16 00:00:00 +0000">2024-07-16</span> · 3 min · </div></header><div class=toc><details><summary title="(Alt + C)" accesskey=c><span class=details>Table of Contents</span></summary> <div class=inner><ul><li><a aria-label="I went into a 5 HOUR HYPERFOCUS SIDEQUEST because I HAD TO KNOW if this scene was accurate" href=#i-went-into-a-5-hour-hyperfocus-sidequest-because-i-had-to-know-if-this-scene-was-accurate>I went into a 5 HOUR HYPERFOCUS SIDEQUEST because I HAD TO KNOW if this scene was accurate</a> <ul><li><a aria-label="The setup" href=#the-setup>The setup</a><li><a aria-label="The process" href=#the-process>The process</a><li><a aria-label="The results" href=#the-results>The results</a><li><a aria-label="Some extra observations" href=#some-extra-observations>Some extra observations</a></ul></ul></div></details></div><div class=post-content><p>This is a much more light-hearted blog post. Skip if you're for more serious stuff.<h1 id=i-went-into-a-5-hour-hyperfocus-sidequest-because-i-had-to-know-if-this-scene-was-accurate>I went into a 5 HOUR HYPERFOCUS SIDEQUEST because I HAD TO KNOW if this scene was accurate<a aria-hidden=true class=anchor hidden href=#i-went-into-a-5-hour-hyperfocus-sidequest-because-i-had-to-know-if-this-scene-was-accurate>#</a></h1><p>So, I wondered after the last time I watched this scene couple days ago <em>(yes, still The Net from 1995)</em>: how real is it?<p><strong>The question:</strong> Is it valid 68k/PPC ASM? Is it from the game itself?<h2 id=the-setup>The setup<a aria-hidden=true class=anchor hidden href=#the-setup>#</a></h2><p>Basilisk II, Quadra 900, 68030+FPU, 128MB (!) RAM, System 7.5.3 Because Basilisk is <em>finnicky, to put it very, very very mildly</em>, I couldn't trigger MacsBug <em>directly</em>, so I used <strong>MacNosy II</strong> to debug. Alongside this, I got ResEdit to complete the software kit to tear Classic Mac OS software down.<h2 id=the-process>The process<a aria-hidden=true class=anchor hidden href=#the-process>#</a></h2><ul><li>Get Wolf3D for Mac OS.<li>Do the satanic incantations to get MacNosy to run. I don't know anything about what I did, or how I should do anything, but I opened the Data Table. I mean, there's some ASM there.</ul><h2 id=the-results>The results<a aria-hidden=true class=anchor hidden href=#the-results>#</a></h2><ul><li>If you crop the window to the first 3 icons on ResEdit, it matches the icons!<li>The instructions, at least the ASCII, <em>indeed is valid <strong>68k</strong> ASM!</em>.<li>Is it from the game? I don't know, couldn't make it run any further. Maybe if I had more braincell reception I could go further but it's 01:30am.</ul><h2 id=some-extra-observations>Some extra observations<a aria-hidden=true class=anchor hidden href=#some-extra-observations>#</a></h2><p><img alt src=https://framebuffer.cl/posts/20240716-thenet/thenet-2.png><ul><li>It looks like it's running on a Power Macintosh 8xxx. On the <em>final retail version</em> of Wolf3D you have fat binaries. If I ran it on SheepShaver as a PowerMac, it would've defaulted to the PPC version <em>for obvious reasons.</em> This is why I used Basilisk II and a Quadra ROM instead.<li>If you get an <em>A/ROSE unimplemented trap</em>, it's because it installed an extension for the <a href=https://en.wikipedia.org/wiki/A/ROSE>Apple Real Time Operative System Extension</a>. It came with the networking drivers. Delete it before rebooting, or don't install networking support.<li>About A/ROSE, it's a <em>fucking Real Time OS, with <strong>pre-emptive multitasking when the host OS didn't even have it</strong>.</em> And even funnier, it's meant to run on 68k's inside NuBus cards to "make it easier to develop NuBus expansion cards for the Mac." I find it <em>so overengineered</em> to have such a level of <em>computer exuberance and debauchery</em> for your stupid Ethernet card. Truly a fascinating side quest to someday come back to.<li>I'm surprised about the accuracy of this film to System 7's UI. They <strong>had</strong> to have someone coding or recreating every scene, or they indeed had some real systems analyst doing the scenes. You can see <em>real</em> Chooser menus, <em>real</em> MacsBug, <em>real</em> Windows 3.1 terminals. Now, of course you have <em>some mocked up things on top</em>... but they look convincing enough for someone <em>that knows and notices those details.</em><li>Yes the monitor there is, indeed, a Radius monitor. Got to have the best gear for <em>hacking!</em><li>I could go on but the boyfriend would complain that I stayed up too late. Oh well...</ul></div><footer class=post-footer><ul class=post-tags><li><a href=https://framebuffer.cl/tags/retro-tech/>retro-tech</a></ul><nav class=paginav><a class=prev href=https://framebuffer.cl/posts/20240716-macnosy/> <span class=title>« Prev</span> <br> <span>Some amusing things on MacNosy</span> </a><a class=next href=https://framebuffer.cl/posts/20240630-direwolf/> <span class=title>Next »</span> <br> <span>Direwolf v0.2-alpha: the pack is back</span> </a></nav></footer></article></main><footer class=footer><span>© 2025 <a href=https://framebuffer.cl></a></span><span> Powered by <a rel="noopener noreferrer" href=https://www.getzola.org/ target=_blank>Zola</a> & <a href=https://github.com/cydave/zola-theme-papermod rel=noopener target=_blank>PaperMod</a> </span></footer><a aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g class=top-link href=#top id=top-link> <svg viewbox="0 0 12 6" fill=currentColor xmlns=http://www.w3.org/2000/svg><path d="M12 6H0l6-6z"/></svg> </a><script>let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });</script><script>var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };</script><script>document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })</script><script>document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                var content = codeblock.textContent;
+                if(codeblock.firstChild.tagName == 'TABLE') {
+                    content = Array(...codeblock.firstChild.getElementsByTagName('span')).map((span) => { return span.textContent; }).join('');
+                }
+                navigator.clipboard.writeText(content);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            // td containing LineNos
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            // table containing LineNos and code
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            // code blocks not having highlight as parent class
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });</script></html><script>class OEmbedProcessor {
+    static async process(url) {
+        const response = await fetch(`/api/oembed?url=${encodeURIComponent(url)}`);
+        return response.ok ? await response.json() : null;
+    }
+}</script>

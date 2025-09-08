@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Framebuffer - gamedev</title>
+    <link rel="self" type="application/atom+xml" href="https://framebuffer.cl/tags/gamedev/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://framebuffer.cl"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-16T00:00:00+00:00</updated>
+    <id>https://framebuffer.cl/tags/gamedev/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Premonition - my first game jam.</title>
+        <published>2025-09-16T00:00:00+00:00</published>
+        <updated>2025-09-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://framebuffer.cl/posts/20240916-premonition/"/>
+        <id>https://framebuffer.cl/posts/20240916-premonition/</id>
+        
+        <content type="html" xml:base="https://framebuffer.cl/posts/20240916-premonition/">&lt;p&gt;These are the thoughts I made when I did my first game jam: Brackeys 12. It&#x27;s not a professional write-up, so don&#x27;t expect anything more than just the raw experience of doing my first game.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;i-did-a-game-in-less-than-a-day&quot;&gt;I did a game in less than a day&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#i-did-a-game-in-less-than-a-day&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;And you can play it, right now.
+*not endorsed by cohost at all. it just happens to be pretty on topic.&lt;&#x2F;p&gt;
+&lt;p style=&quot;color: white; font-size: 64px; font-weight: bold; text-align: center&quot;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;itch.io&#x2F;jam&#x2F;brackeys-12&#x2F;rate&#x2F;2973693&quot;&gt;Premonition&lt;&#x2F;a&gt;
+&lt;&#x2F;p&gt;
+&lt;p style=&quot;color: white; font-size: 14px; font-weight: bold; text-align: center&quot;&gt;
+You don&#x27;t know calm until you&#x27;re knee deep inside the storm.
+&lt;&#x2F;p&gt;
+&lt;p&gt;Please go rate it on the link above, and please &lt;em&gt;be absolutely legit honest&lt;&#x2F;em&gt; with it. I cannot be better if you sugar-coat feedback. Now, if you want to know the whole story, carry on:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#summary&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-4.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You&#x27;re in your house, surrounded by the calm of your memories, stored inside each of the things you own. Before you know it, they start disappearing until you are alone. And all you have left are the fleeting memories, and the realisation that these might go away.&lt;&#x2F;p&gt;
+&lt;p&gt;Losing your mind is the most terrifying storm you can go through.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gameplay-loop&quot;&gt;Gameplay loop&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#gameplay-loop&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-7.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;You are inside a house. It&#x27;s full of things.
+&lt;ul&gt;
+&lt;li&gt;Get near them and some text will appear in the top-right corner.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Each game session is completely random. You will lose your memory quicker, or slower.&lt;&#x2F;li&gt;
+&lt;li&gt;Each interaction throws a dice to check if you will lose an object or not.¹&lt;&#x2F;li&gt;
+&lt;li&gt;You will never see everything in one playthrough.²&lt;&#x2F;li&gt;
+&lt;li&gt;There&#x27;s at least 25 objects, with 5 lines of text each.³&lt;&#x2F;li&gt;
+&lt;li&gt;Each line concatenate with each other. They&#x27;re shown at random, so you might get the same one several times, or all different in one go.
+&lt;ul&gt;
+&lt;li&gt;You&#x27;ll have to play several times to see them all and piece out the story.⁴&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;aim&quot;&gt;Aim&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#aim&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Figure out who are you controlling.
+&lt;ul&gt;
+&lt;li&gt;If you&#x27;re terminally online like me, you&#x27;ll see a lot of small detail that you&#x27;ll love. Send me a message if you find one out!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Experiment with a &lt;em&gt;specific&lt;&#x2F;em&gt; technique I have been trying to perfect for the last 3 months.&lt;&#x2F;li&gt;
+&lt;li&gt;See if I&#x27;m up to the challenge.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;git gud at code.&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;specially good at git. &lt;em&gt;More on that later&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Learn Godot on a project from cradle to grave. Well, maybe not &lt;em&gt;grave&lt;&#x2F;em&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons learned&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#lessons-learned&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Modularity with focus.&lt;&#x2F;li&gt;
+&lt;li&gt;Your instrument doesn&#x27;t matter if you know how to play it.&lt;&#x2F;li&gt;
+&lt;li&gt;Bad games are better than &lt;em&gt;unreleased&lt;&#x2F;em&gt; games.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;the-subway-approach&quot;&gt;The Subway approach&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-subway-approach&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-1.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p style=&quot;color: white; font-size: 14px; font-weight: bold; text-align: center&quot;&gt;
+Spend your time building ingredients to cook different meals, but keep your focus on making sandwiches.
+&lt;&#x2F;p&gt;
+&lt;p&gt;Or, &lt;em&gt;think modular but have a set goal in mind.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is where my experience of &lt;em&gt;almost&lt;&#x2F;em&gt; a decade in the architectural battleground were &lt;em&gt;essential&lt;&#x2F;em&gt; to survival. We had these kinds of short development cycles with gruelling deadlines &lt;em&gt;weekly.&lt;&#x2F;em&gt; I was used to this. I quit because I had to do this &lt;em&gt;whilst having a severe technical disadvantage on the construction side.&lt;&#x2F;em&gt; This is why I hated it.&lt;&#x2F;p&gt;
+&lt;p&gt;Not here. Computers are my natural habitat. And here&#x27;s the single biggest knowledge transfer I can give to this field: &lt;strong&gt;build software like you&#x27;d make you a sandwich.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;But Frame, what about Agile?&lt;&#x2F;p&gt;
+&lt;p&gt;You cannot cook if someone&#x27;s constantly coming into the kitchen to check on you. You are responsible of your meal. We were responsible &lt;em&gt;of the lives of those living in our work.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;And this is where BIM &lt;em&gt;kind of&lt;&#x2F;em&gt; has a lesson on how to approach game&#x2F;development in general. Coordination requires ownership and accountability of your own work. Then, tasks have to be divided &lt;em&gt;between disciplines&lt;&#x2F;em&gt; and coordinated by a single individual that sees the forest from the trees. But each person speak a common language, and that accountability counterbalances the manager.&lt;&#x2F;p&gt;
+&lt;p&gt;But Frame, how did this impact your game?&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;playing-by-ear&quot;&gt;Playing by ear...&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#playing-by-ear&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-2.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I did not read &lt;em&gt;anything on what to do or don&#x27;t on these kinds of competitions.&lt;&#x2F;em&gt; I did not learn the &lt;em&gt;axioms, laws, canons and customs&lt;&#x2F;em&gt; of game development. I did not learn the sheet to this tune. &lt;strong&gt;I played 100% by ear.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Were I be less experienced on development of projects in general, &lt;strong&gt;it would have been one huge disaster.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;However, as they say, &lt;em&gt;mess around around and find out.&lt;&#x2F;em&gt; And I did find out not only &lt;em&gt;half-documented&lt;&#x2F;em&gt; bugs on Godot that need some workarounds, but also that I needed to do split-second decisions hours before deadline.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;without-an-instrument&quot;&gt;...without an instrument.&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#without-an-instrument&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p style=&quot;color: white; font-size: 14px; font-weight: bold; text-align: center&quot;&gt;
+I DID NOT START DEVELOPING GAMEPLAY UNTIL 8 HOURS BEFORE THE DEADLINE.
+&lt;&#x2F;p&gt;
+&lt;p&gt;...but I had every single ingredient to cook something in half that time. And I did. How?&lt;&#x2F;p&gt;
+&lt;p&gt;I planned around this by thinking: ok, I know my concept was the &quot;deja-vu after realising your demise&quot;. I played to my strengths. I knew my strength was the environment and map. So, I did build a house using the same architecture tools I used to use. I exported to OBJ (not knowing my software did not export using quads, but triangles, so the geometry exploded on import. whoops). What can I do with that? uhm, lighting! let&#x27;s do lighting. What&#x27;s the cheapest aesthetic I can develop that&#x27;s also interesting? oh, the one I have been working on!&lt;&#x2F;p&gt;
+&lt;p&gt;I cooked with whatever I had in the fridge.&lt;&#x2F;p&gt;
+&lt;p&gt;In the end, though, what do I do with it? I had ~5 routes to go with. The idea was simple: add, remove and&#x2F;or substitute objects inside the house, alongside their dialogue. That&#x27;ll stretch the mileage out of the ~25 or so assets I had.&lt;&#x2F;p&gt;
+&lt;p&gt;Yet, I didn&#x27;t have a single route hooked up.&lt;&#x2F;p&gt;
+&lt;p&gt;Well, screw it. I chose the one ending that was the more &lt;em&gt;complex&lt;&#x2F;em&gt; of them all. The more &lt;em&gt;interesting&lt;&#x2F;em&gt;, yet more code-demanding of them all: &lt;strong&gt;the memory loss route.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Turns out the theme fit perfectly with the sad demise of cohost, and the memories I&#x27;ll have. &lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20241113000521&#x2F;https:&#x2F;&#x2F;cohost.org&#x2F;HunnyBon&#x2F;post&#x2F;7730825-empty&quot;&gt;And this post, now accessible via Wayback Machine &lt;&#x2F;a&gt; by @HunnyBon kind of sealed the deal.&lt;&#x2F;p&gt;
+&lt;p&gt;In my defence, this idea predated me knowing about the demise of cohost by, at least, 2 days. It may have marinated on the back of my head, but it was not my first main idea. The main idea was &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YkADj0TPrJA&quot;&gt;In The Air Tonight Simulator 2024&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;framebuffers.itch.io&#x2F;premonition&#x2F;comments&quot;&gt;As a comment on my game said&lt;&#x2F;a&gt;, it&#x27;s pretty melancholic. It is, indeed, melancholic.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, the fun part: the coding.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;rng-can-be-your-angle-or-your-devil&quot;&gt;RNG can be your angle or your devil,,,,&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#rng-can-be-your-angle-or-your-devil&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Just to be extra dramatic:&lt;&#x2F;p&gt;
+&lt;p style=&quot;color: white; font-size: 14px; font-weight: bold; text-align: center&quot;&gt;
+I DID THIS TO MYSELF, ON PURPOSE.
+&lt;&#x2F;p&gt;
+Who the hell uses **freaking C#** on a **tight deadline game jam** when **you are working alone, cooking the whole 7 course meal yourself????????**
+&lt;p&gt;Like my 2nd year committee for my final project commented:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;you&#x27;re good on concepts, but too &lt;strong&gt;sophisticated&lt;&#x2F;strong&gt; to comprehend how to complete your ideas.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Dead right. But I am on my own turf, so I pulled the oldest trick in gaming history:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;RNG. Your best fren.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Throughout gaming history, in general, there&#x27;s been so many examples of RNG being the key of a good experience. It&#x27;s one of our great tools at our disposal to &lt;em&gt;generate replayability&lt;&#x2F;em&gt; on a game. When I was pressured to deliver, I said, screw it, we going all the way.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-rng-system&quot;&gt;The RNG system&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-rng-system&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;m going to reveal two things:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The game is heavily randomised. It rolls a difficulty level between 1-15, and each routine rolls a number between 1-20. If the rolled number is less or equal than the difficulty level, it follows the &lt;em&gt;unhappy&lt;&#x2F;em&gt; path.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Every exception thrown redirects to the dialogue generation code.&lt;&#x2F;strong&gt; Suddenly I didn&#x27;t have any bugs! Several examples of this technique have been done &lt;em&gt;specifically to avoid game-crashing bugs&lt;&#x2F;em&gt;. &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=i9bkKw32dGw&quot;&gt;Here is one I love the most, because I love the 68000&#x27;s trap system.&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;ok-for-real-why-c&quot;&gt;Ok, for real, why C#?&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#ok-for-real-why-c&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Playing to my strengths. And the fact I cannot learn a new language in less than a week. I am not a good programmer, but I am a &lt;em&gt;diabolical&lt;&#x2F;em&gt; programmer.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m going to reveal a very simple, yet &lt;em&gt;cringe-worthy and horrifyingly clever&lt;&#x2F;em&gt; tricks I pulled.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;extensions-are-your-best-friend&quot;&gt;Extensions are your best friend&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#extensions-are-your-best-friend&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;In Godot, to print to the console, you need to write the following line:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;csharp&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-csharp &quot;&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;&lt;span&gt;GD.Print(&amp;quot;eggbug&amp;quot;);
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;However, I had to debug a lot of code, and I hated having to write that same line so many times. But wait a second, &lt;em&gt;which feature of C# lets you attach custom behaviour to pre-existing classes?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Yes.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;csharp&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-csharp &quot;&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;&lt;span&gt;public static class LogManagerExtensions
+&lt;&#x2F;span&gt;&lt;span&gt;    {
+&lt;&#x2F;span&gt;&lt;span&gt;        public static void ToConsole(this string s) =&amp;gt; GD.Print($&amp;quot;{DateTime.Now}: {s}\n&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;        public static void ToConsoleAsException(this string s) =&amp;gt; GD.PrintErr(s);
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The output is quite nice:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Godot&lt;&#x2F;span&gt;&lt;span&gt; Engine v4.3.dev.mono.custom_build.ffe9ec6bf (2024-05-09 03:33:34 UTC) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; https:&#x2F;&#x2F;godotengine.org
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Vulkan&lt;&#x2F;span&gt;&lt;span&gt; 1.3.212 - Forward+ - Using Device &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;#0: Intel - Intel(R) UHD Graphics 620
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Scene loaded at &#x2F;root&#x2F;GameDirector&#x2F;ScreenManager
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Loaded at: &#x2F;root&#x2F;GameDirector&#x2F;SceneManager
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Path number: 0
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Moving to string path: res:&#x2F;&#x2F;Scenarios&#x2F;Intro.tscn
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Screen2D = 1366 x 768
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Screen3D = 1366 x 768
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Obsidian&lt;&#x2F;span&gt;&lt;span&gt; Framework for Godot
+&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;C&lt;&#x2F;span&gt;&lt;span&gt;) Copyright 2024 Framebuffer. Version 2024.09.R2.
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Running&lt;&#x2F;span&gt;&lt;span&gt; on Godot 4.3-dev (custom_build)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Architecture:&lt;&#x2F;span&gt;&lt;span&gt; x86_64
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Game:&lt;&#x2F;span&gt;&lt;span&gt; Premonition.Managers.GameDirector, Premonition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Author:&lt;&#x2F;span&gt;&lt;span&gt; Framebuffer
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;License:&lt;&#x2F;span&gt;&lt;span&gt; MIT Licence
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Instantiating new scene from string path: res:&#x2F;&#x2F;Scenarios&#x2F;Intro.tscn.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Intro screen tween cycle is: 26.823633
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;[...]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Let&#x27;s see the syntax on the next example:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;csharp&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-csharp &quot;&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;&lt;span&gt; public static void InstantiatePathAsScene&amp;lt;T&amp;gt;(this string scenePath, out T instance) where T : Node
+&lt;&#x2F;span&gt;&lt;span&gt;        {
+&lt;&#x2F;span&gt;&lt;span&gt;            try
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                Node n = GD.Load&amp;lt;PackedScene&amp;gt;(scenePath).Instantiate();
+&lt;&#x2F;span&gt;&lt;span&gt;                instance = n as T ?? throw new ArgumentException(null, nameof(scenePath));
+&lt;&#x2F;span&gt;&lt;span&gt;                $&amp;quot;Adding scene from string path: {scenePath}&amp;quot;.ToConsole();
+&lt;&#x2F;span&gt;&lt;span&gt;            }
+&lt;&#x2F;span&gt;&lt;span&gt;            catch (Exception e)
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                $&amp;quot;Exception caught at: {e.TargetSite}\n \t{e.Message}\n \t{e.StackTrace}\n&amp;quot;.ToConsoleAsException();
+&lt;&#x2F;span&gt;&lt;span&gt;                instance = default!;
+&lt;&#x2F;span&gt;&lt;span&gt;            }
+&lt;&#x2F;span&gt;&lt;span&gt;        }
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Godot works with strings for paths. I hate this. I also had to do this operation a lot: taking a &lt;em&gt;scene&lt;&#x2F;em&gt; (basically, a class at this point), and &lt;em&gt;instantiating&lt;&#x2F;em&gt; it into the screen. I also needed to keep a reference of it to access it directly. Godot works using a tree-like structure for all objects on your screen. I have spicy opinions but &lt;em&gt;not now.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;I extended the &lt;code&gt;string&lt;&#x2F;code&gt; base type to add a method to instantiate Godot scene files from their path, directly to the tree.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can also see the syntax of the aforementioned &lt;code&gt;ToConsole()&lt;&#x2F;code&gt; syntax. I could&#x27;ve even extended &lt;code&gt;Exception&lt;&#x2F;code&gt; to implement &lt;code&gt;ToConsoleAsException();&lt;&#x2F;code&gt; and &lt;em&gt;actually have a decent stack trace.&lt;&#x2F;em&gt; That would&#x27;ve saved me from one of the clutches of all time.&lt;&#x2F;p&gt;
+&lt;p&gt;See, choosing C# was not a &lt;em&gt;myopic&lt;&#x2F;em&gt; choice.&lt;&#x2F;p&gt;
+&lt;p&gt;Heh.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;something-something-perfection&quot;&gt;something something perfection&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#something-something-perfection&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-6.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;My game has a couple bugs. Big ones. Ones that I could not fix on time. It&#x27;s now more of a tech demo than it was when I compiled it. Something happened, and I got trolled last minute. But it&#x27;s not the first time I had this happen. And I am at peace with that.&lt;&#x2F;p&gt;
+&lt;p&gt;Cause I did it. I did what I wanted to do. And, most importantly, I learned so much that for me, the most important thing is the feedback I get from the people around itch.io submitting and rating.&lt;&#x2F;p&gt;
+&lt;p&gt;One said to me just now that it&#x27;s like a surreal museum, without any gameplay. Why is it on a game jam?&lt;&#x2F;p&gt;
+&lt;p&gt;Indeed, I messed up. If it&#x27;s not evident on first sight, then I failed to explain my concept and it is unacceptable. Basic mistake.&lt;&#x2F;p&gt;
+&lt;p&gt;But I went into this &lt;em&gt;expecting&lt;&#x2F;em&gt; this to happen. It&#x27;s not an excuse for bad quality, and don&#x27;t get me wrong, I pushed for the highest quality I could do. But it&#x27;s highest quality a newbie can do. And, in their words, at least the vibe is right. And the visuals are unique.&lt;&#x2F;p&gt;
+&lt;p&gt;I take that as a W on me on visuals, at least.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-future&quot;&gt;The future&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-future&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-8.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;First, this is going to go somewhere else. I don&#x27;t want to lose it.&lt;&#x2F;p&gt;
+&lt;p&gt;Second, going to try to make Godot C# less bad. For me, and anyone who really cares anyways. I want to see &lt;em&gt;good quality&lt;&#x2F;em&gt; FOSS thrive. Godot is the very rare case of FOSS not being a dog&#x27;s dinner like GIMP, impossible to pick up without a tutorial like Blender, and usable like Audacity. I really &lt;strong&gt;really&lt;&#x2F;strong&gt; want to see more of it, and now that Unity lost its trust... I bet on Godot and I do not regret it a single bit.&lt;&#x2F;p&gt;
+&lt;p&gt;And third... if you really want to make this happen... idk. I need all the help and direction I need to get into this. Or idk, really. At this point I am flying blind; but the missile knows where it is, that is because it knows where it isn&#x27;t.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

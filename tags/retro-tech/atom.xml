@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Framebuffer - retro-tech</title>
+    <link rel="self" type="application/atom+xml" href="https://framebuffer.cl/tags/retro-tech/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://framebuffer.cl"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-07-16T00:00:00+00:00</updated>
+    <id>https://framebuffer.cl/tags/retro-tech/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Are the computer scenes in The Net (1995) real?</title>
+        <published>2024-07-16T00:00:00+00:00</published>
+        <updated>2024-07-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://framebuffer.cl/posts/20240716-thenet/"/>
+        <id>https://framebuffer.cl/posts/20240716-thenet/</id>
+        
+        <content type="html" xml:base="https://framebuffer.cl/posts/20240716-thenet/">&lt;p&gt;This is a much more light-hearted blog post. Skip if you&#x27;re for more serious stuff.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;i-went-into-a-5-hour-hyperfocus-sidequest-because-i-had-to-know-if-this-scene-was-accurate&quot;&gt;I went into a 5 HOUR HYPERFOCUS SIDEQUEST because I HAD TO KNOW if this scene was accurate&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#i-went-into-a-5-hour-hyperfocus-sidequest-because-i-had-to-know-if-this-scene-was-accurate&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;So, I wondered after the last time I watched this scene couple days ago &lt;em&gt;(yes, still The Net from 1995)&lt;&#x2F;em&gt;: how real is it?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;The question:&lt;&#x2F;strong&gt; Is it valid 68k&#x2F;PPC ASM? Is it from the game itself?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-setup&quot;&gt;The setup&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-setup&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Basilisk II, Quadra 900, 68030+FPU, 128MB (!) RAM, System 7.5.3
+Because Basilisk is &lt;em&gt;finnicky, to put it very, very very mildly&lt;&#x2F;em&gt;, I couldn&#x27;t trigger MacsBug &lt;em&gt;directly&lt;&#x2F;em&gt;, so I used &lt;strong&gt;MacNosy II&lt;&#x2F;strong&gt; to debug. Alongside this, I got ResEdit to complete the software kit to tear Classic Mac OS software down.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-process&quot;&gt;The process&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-process&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Get Wolf3D for Mac OS.&lt;&#x2F;li&gt;
+&lt;li&gt;Do the satanic incantations to get MacNosy to run. I don&#x27;t know anything about what I did, or how I should do anything, but I opened the Data Table. I mean, there&#x27;s some ASM there.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;the-results&quot;&gt;The results&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-results&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If you crop the window to the first 3 icons on ResEdit, it matches the icons!&lt;&#x2F;li&gt;
+&lt;li&gt;The instructions, at least the ASCII, &lt;em&gt;indeed is valid &lt;strong&gt;68k&lt;&#x2F;strong&gt; ASM!&lt;&#x2F;em&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Is it from the game? I don&#x27;t know, couldn&#x27;t make it run any further. Maybe if I had more braincell reception I could go further but it&#x27;s 01:30am.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;some-extra-observations&quot;&gt;Some extra observations&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#some-extra-observations&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240716-thenet&#x2F;thenet-2.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;It looks like it&#x27;s running on a Power Macintosh 8xxx. On the &lt;em&gt;final retail version&lt;&#x2F;em&gt; of Wolf3D you have fat binaries. If I ran it on SheepShaver as a PowerMac, it would&#x27;ve defaulted to the PPC version &lt;em&gt;for obvious reasons.&lt;&#x2F;em&gt; This is why I used Basilisk II and a Quadra ROM instead.&lt;&#x2F;li&gt;
+&lt;li&gt;If you get an &lt;em&gt;A&#x2F;ROSE unimplemented trap&lt;&#x2F;em&gt;, it&#x27;s because it installed an extension for the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;A&#x2F;ROSE&quot;&gt;Apple Real Time Operative System Extension&lt;&#x2F;a&gt;. It came with the networking drivers. Delete it before rebooting, or don&#x27;t install networking support.&lt;&#x2F;li&gt;
+&lt;li&gt;About A&#x2F;ROSE, it&#x27;s a &lt;em&gt;fucking Real Time OS, with &lt;strong&gt;pre-emptive multitasking when the host OS didn&#x27;t even have it&lt;&#x2F;strong&gt;.&lt;&#x2F;em&gt; And even funnier, it&#x27;s meant to run on 68k&#x27;s inside NuBus cards to &quot;make it easier to develop NuBus expansion cards for the Mac.&quot; I find it &lt;em&gt;so overengineered&lt;&#x2F;em&gt; to have such a level of &lt;em&gt;computer exuberance and debauchery&lt;&#x2F;em&gt; for your stupid Ethernet card. Truly a fascinating side quest to someday come back to.&lt;&#x2F;li&gt;
+&lt;li&gt;I&#x27;m surprised about the accuracy of this film to System 7&#x27;s UI. They &lt;strong&gt;had&lt;&#x2F;strong&gt; to have someone coding or recreating every scene, or they indeed had some real systems analyst doing the scenes. You can see &lt;em&gt;real&lt;&#x2F;em&gt; Chooser menus, &lt;em&gt;real&lt;&#x2F;em&gt; MacsBug, &lt;em&gt;real&lt;&#x2F;em&gt; Windows 3.1 terminals. Now, of course you have &lt;em&gt;some mocked up things on top&lt;&#x2F;em&gt;... but they look convincing enough for someone &lt;em&gt;that knows and notices those details.&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Yes the monitor there is, indeed, a Radius monitor. Got to have the best gear for &lt;em&gt;hacking!&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;I could go on but the boyfriend would complain that I stayed up too late. Oh well...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Some amusing things on MacNosy</title>
+        <published>2024-04-16T00:00:00+00:00</published>
+        <updated>2024-04-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://framebuffer.cl/posts/20240716-macnosy/"/>
+        <id>https://framebuffer.cl/posts/20240716-macnosy/</id>
+        
+        <content type="html" xml:base="https://framebuffer.cl/posts/20240716-macnosy/">&lt;h1 id=&quot;some-amusing-things-on-macnosy&quot;&gt;some amusing things on MacNosy&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#some-amusing-things-on-macnosy&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I know this is software that many might&#x27;ve used, or that it&#x27;s still being used for homebrew&#x2F;modding&#x2F;maintaining(?????) Classic MacOS software.&lt;&#x2F;p&gt;
+&lt;p&gt;But what surprised me the most was the verbosity and tone of most of the UI and documentation. I&#x27;m going to show some of the most intriguing I found in a night of screwing around.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240716-macnosy&#x2F;macnosy-1.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240716-macnosy&#x2F;macnosy-2.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240716-macnosy&#x2F;macnosy-4.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

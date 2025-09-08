@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Framebuffer - Posts</title>
+    <link rel="self" type="application/atom+xml" href="https://framebuffer.cl/posts/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://framebuffer.cl/posts/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-16T00:00:00+00:00</updated>
+    <id>https://framebuffer.cl/posts/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Premonition - my first game jam.</title>
+        <published>2025-09-16T00:00:00+00:00</published>
+        <updated>2025-09-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://framebuffer.cl/posts/20240916-premonition/"/>
+        <id>https://framebuffer.cl/posts/20240916-premonition/</id>
+        
+        <content type="html" xml:base="https://framebuffer.cl/posts/20240916-premonition/">&lt;p&gt;These are the thoughts I made when I did my first game jam: Brackeys 12. It&#x27;s not a professional write-up, so don&#x27;t expect anything more than just the raw experience of doing my first game.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;i-did-a-game-in-less-than-a-day&quot;&gt;I did a game in less than a day&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#i-did-a-game-in-less-than-a-day&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;And you can play it, right now.
+*not endorsed by cohost at all. it just happens to be pretty on topic.&lt;&#x2F;p&gt;
+&lt;p style=&quot;color: white; font-size: 64px; font-weight: bold; text-align: center&quot;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;itch.io&#x2F;jam&#x2F;brackeys-12&#x2F;rate&#x2F;2973693&quot;&gt;Premonition&lt;&#x2F;a&gt;
+&lt;&#x2F;p&gt;
+&lt;p style=&quot;color: white; font-size: 14px; font-weight: bold; text-align: center&quot;&gt;
+You don&#x27;t know calm until you&#x27;re knee deep inside the storm.
+&lt;&#x2F;p&gt;
+&lt;p&gt;Please go rate it on the link above, and please &lt;em&gt;be absolutely legit honest&lt;&#x2F;em&gt; with it. I cannot be better if you sugar-coat feedback. Now, if you want to know the whole story, carry on:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#summary&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-4.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You&#x27;re in your house, surrounded by the calm of your memories, stored inside each of the things you own. Before you know it, they start disappearing until you are alone. And all you have left are the fleeting memories, and the realisation that these might go away.&lt;&#x2F;p&gt;
+&lt;p&gt;Losing your mind is the most terrifying storm you can go through.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gameplay-loop&quot;&gt;Gameplay loop&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#gameplay-loop&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-7.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;You are inside a house. It&#x27;s full of things.
+&lt;ul&gt;
+&lt;li&gt;Get near them and some text will appear in the top-right corner.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Each game session is completely random. You will lose your memory quicker, or slower.&lt;&#x2F;li&gt;
+&lt;li&gt;Each interaction throws a dice to check if you will lose an object or not.¹&lt;&#x2F;li&gt;
+&lt;li&gt;You will never see everything in one playthrough.²&lt;&#x2F;li&gt;
+&lt;li&gt;There&#x27;s at least 25 objects, with 5 lines of text each.³&lt;&#x2F;li&gt;
+&lt;li&gt;Each line concatenate with each other. They&#x27;re shown at random, so you might get the same one several times, or all different in one go.
+&lt;ul&gt;
+&lt;li&gt;You&#x27;ll have to play several times to see them all and piece out the story.⁴&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;aim&quot;&gt;Aim&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#aim&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Figure out who are you controlling.
+&lt;ul&gt;
+&lt;li&gt;If you&#x27;re terminally online like me, you&#x27;ll see a lot of small detail that you&#x27;ll love. Send me a message if you find one out!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Experiment with a &lt;em&gt;specific&lt;&#x2F;em&gt; technique I have been trying to perfect for the last 3 months.&lt;&#x2F;li&gt;
+&lt;li&gt;See if I&#x27;m up to the challenge.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;git gud at code.&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;specially good at git. &lt;em&gt;More on that later&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Learn Godot on a project from cradle to grave. Well, maybe not &lt;em&gt;grave&lt;&#x2F;em&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons learned&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#lessons-learned&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Modularity with focus.&lt;&#x2F;li&gt;
+&lt;li&gt;Your instrument doesn&#x27;t matter if you know how to play it.&lt;&#x2F;li&gt;
+&lt;li&gt;Bad games are better than &lt;em&gt;unreleased&lt;&#x2F;em&gt; games.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;the-subway-approach&quot;&gt;The Subway approach&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-subway-approach&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-1.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p style=&quot;color: white; font-size: 14px; font-weight: bold; text-align: center&quot;&gt;
+Spend your time building ingredients to cook different meals, but keep your focus on making sandwiches.
+&lt;&#x2F;p&gt;
+&lt;p&gt;Or, &lt;em&gt;think modular but have a set goal in mind.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is where my experience of &lt;em&gt;almost&lt;&#x2F;em&gt; a decade in the architectural battleground were &lt;em&gt;essential&lt;&#x2F;em&gt; to survival. We had these kinds of short development cycles with gruelling deadlines &lt;em&gt;weekly.&lt;&#x2F;em&gt; I was used to this. I quit because I had to do this &lt;em&gt;whilst having a severe technical disadvantage on the construction side.&lt;&#x2F;em&gt; This is why I hated it.&lt;&#x2F;p&gt;
+&lt;p&gt;Not here. Computers are my natural habitat. And here&#x27;s the single biggest knowledge transfer I can give to this field: &lt;strong&gt;build software like you&#x27;d make you a sandwich.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;But Frame, what about Agile?&lt;&#x2F;p&gt;
+&lt;p&gt;You cannot cook if someone&#x27;s constantly coming into the kitchen to check on you. You are responsible of your meal. We were responsible &lt;em&gt;of the lives of those living in our work.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;And this is where BIM &lt;em&gt;kind of&lt;&#x2F;em&gt; has a lesson on how to approach game&#x2F;development in general. Coordination requires ownership and accountability of your own work. Then, tasks have to be divided &lt;em&gt;between disciplines&lt;&#x2F;em&gt; and coordinated by a single individual that sees the forest from the trees. But each person speak a common language, and that accountability counterbalances the manager.&lt;&#x2F;p&gt;
+&lt;p&gt;But Frame, how did this impact your game?&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;playing-by-ear&quot;&gt;Playing by ear...&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#playing-by-ear&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-2.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I did not read &lt;em&gt;anything on what to do or don&#x27;t on these kinds of competitions.&lt;&#x2F;em&gt; I did not learn the &lt;em&gt;axioms, laws, canons and customs&lt;&#x2F;em&gt; of game development. I did not learn the sheet to this tune. &lt;strong&gt;I played 100% by ear.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Were I be less experienced on development of projects in general, &lt;strong&gt;it would have been one huge disaster.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;However, as they say, &lt;em&gt;mess around around and find out.&lt;&#x2F;em&gt; And I did find out not only &lt;em&gt;half-documented&lt;&#x2F;em&gt; bugs on Godot that need some workarounds, but also that I needed to do split-second decisions hours before deadline.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;without-an-instrument&quot;&gt;...without an instrument.&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#without-an-instrument&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p style=&quot;color: white; font-size: 14px; font-weight: bold; text-align: center&quot;&gt;
+I DID NOT START DEVELOPING GAMEPLAY UNTIL 8 HOURS BEFORE THE DEADLINE.
+&lt;&#x2F;p&gt;
+&lt;p&gt;...but I had every single ingredient to cook something in half that time. And I did. How?&lt;&#x2F;p&gt;
+&lt;p&gt;I planned around this by thinking: ok, I know my concept was the &quot;deja-vu after realising your demise&quot;. I played to my strengths. I knew my strength was the environment and map. So, I did build a house using the same architecture tools I used to use. I exported to OBJ (not knowing my software did not export using quads, but triangles, so the geometry exploded on import. whoops). What can I do with that? uhm, lighting! let&#x27;s do lighting. What&#x27;s the cheapest aesthetic I can develop that&#x27;s also interesting? oh, the one I have been working on!&lt;&#x2F;p&gt;
+&lt;p&gt;I cooked with whatever I had in the fridge.&lt;&#x2F;p&gt;
+&lt;p&gt;In the end, though, what do I do with it? I had ~5 routes to go with. The idea was simple: add, remove and&#x2F;or substitute objects inside the house, alongside their dialogue. That&#x27;ll stretch the mileage out of the ~25 or so assets I had.&lt;&#x2F;p&gt;
+&lt;p&gt;Yet, I didn&#x27;t have a single route hooked up.&lt;&#x2F;p&gt;
+&lt;p&gt;Well, screw it. I chose the one ending that was the more &lt;em&gt;complex&lt;&#x2F;em&gt; of them all. The more &lt;em&gt;interesting&lt;&#x2F;em&gt;, yet more code-demanding of them all: &lt;strong&gt;the memory loss route.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Turns out the theme fit perfectly with the sad demise of cohost, and the memories I&#x27;ll have. &lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20241113000521&#x2F;https:&#x2F;&#x2F;cohost.org&#x2F;HunnyBon&#x2F;post&#x2F;7730825-empty&quot;&gt;And this post, now accessible via Wayback Machine &lt;&#x2F;a&gt; by @HunnyBon kind of sealed the deal.&lt;&#x2F;p&gt;
+&lt;p&gt;In my defence, this idea predated me knowing about the demise of cohost by, at least, 2 days. It may have marinated on the back of my head, but it was not my first main idea. The main idea was &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YkADj0TPrJA&quot;&gt;In The Air Tonight Simulator 2024&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;framebuffers.itch.io&#x2F;premonition&#x2F;comments&quot;&gt;As a comment on my game said&lt;&#x2F;a&gt;, it&#x27;s pretty melancholic. It is, indeed, melancholic.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, the fun part: the coding.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;rng-can-be-your-angle-or-your-devil&quot;&gt;RNG can be your angle or your devil,,,,&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#rng-can-be-your-angle-or-your-devil&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Just to be extra dramatic:&lt;&#x2F;p&gt;
+&lt;p style=&quot;color: white; font-size: 14px; font-weight: bold; text-align: center&quot;&gt;
+I DID THIS TO MYSELF, ON PURPOSE.
+&lt;&#x2F;p&gt;
+Who the hell uses **freaking C#** on a **tight deadline game jam** when **you are working alone, cooking the whole 7 course meal yourself????????**
+&lt;p&gt;Like my 2nd year committee for my final project commented:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;you&#x27;re good on concepts, but too &lt;strong&gt;sophisticated&lt;&#x2F;strong&gt; to comprehend how to complete your ideas.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Dead right. But I am on my own turf, so I pulled the oldest trick in gaming history:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;RNG. Your best fren.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Throughout gaming history, in general, there&#x27;s been so many examples of RNG being the key of a good experience. It&#x27;s one of our great tools at our disposal to &lt;em&gt;generate replayability&lt;&#x2F;em&gt; on a game. When I was pressured to deliver, I said, screw it, we going all the way.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-rng-system&quot;&gt;The RNG system&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-rng-system&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;m going to reveal two things:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The game is heavily randomised. It rolls a difficulty level between 1-15, and each routine rolls a number between 1-20. If the rolled number is less or equal than the difficulty level, it follows the &lt;em&gt;unhappy&lt;&#x2F;em&gt; path.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Every exception thrown redirects to the dialogue generation code.&lt;&#x2F;strong&gt; Suddenly I didn&#x27;t have any bugs! Several examples of this technique have been done &lt;em&gt;specifically to avoid game-crashing bugs&lt;&#x2F;em&gt;. &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=i9bkKw32dGw&quot;&gt;Here is one I love the most, because I love the 68000&#x27;s trap system.&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;ok-for-real-why-c&quot;&gt;Ok, for real, why C#?&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#ok-for-real-why-c&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Playing to my strengths. And the fact I cannot learn a new language in less than a week. I am not a good programmer, but I am a &lt;em&gt;diabolical&lt;&#x2F;em&gt; programmer.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m going to reveal a very simple, yet &lt;em&gt;cringe-worthy and horrifyingly clever&lt;&#x2F;em&gt; tricks I pulled.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;extensions-are-your-best-friend&quot;&gt;Extensions are your best friend&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#extensions-are-your-best-friend&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;In Godot, to print to the console, you need to write the following line:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;csharp&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-csharp &quot;&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;&lt;span&gt;GD.Print(&amp;quot;eggbug&amp;quot;);
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;However, I had to debug a lot of code, and I hated having to write that same line so many times. But wait a second, &lt;em&gt;which feature of C# lets you attach custom behaviour to pre-existing classes?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Yes.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;csharp&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-csharp &quot;&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;&lt;span&gt;public static class LogManagerExtensions
+&lt;&#x2F;span&gt;&lt;span&gt;    {
+&lt;&#x2F;span&gt;&lt;span&gt;        public static void ToConsole(this string s) =&amp;gt; GD.Print($&amp;quot;{DateTime.Now}: {s}\n&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;        public static void ToConsoleAsException(this string s) =&amp;gt; GD.PrintErr(s);
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The output is quite nice:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Godot&lt;&#x2F;span&gt;&lt;span&gt; Engine v4.3.dev.mono.custom_build.ffe9ec6bf (2024-05-09 03:33:34 UTC) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; https:&#x2F;&#x2F;godotengine.org
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Vulkan&lt;&#x2F;span&gt;&lt;span&gt; 1.3.212 - Forward+ - Using Device &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;#0: Intel - Intel(R) UHD Graphics 620
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Scene loaded at &#x2F;root&#x2F;GameDirector&#x2F;ScreenManager
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Loaded at: &#x2F;root&#x2F;GameDirector&#x2F;SceneManager
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Path number: 0
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Moving to string path: res:&#x2F;&#x2F;Scenarios&#x2F;Intro.tscn
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Screen2D = 1366 x 768
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Screen3D = 1366 x 768
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Obsidian&lt;&#x2F;span&gt;&lt;span&gt; Framework for Godot
+&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;C&lt;&#x2F;span&gt;&lt;span&gt;) Copyright 2024 Framebuffer. Version 2024.09.R2.
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Running&lt;&#x2F;span&gt;&lt;span&gt; on Godot 4.3-dev (custom_build)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Architecture:&lt;&#x2F;span&gt;&lt;span&gt; x86_64
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Game:&lt;&#x2F;span&gt;&lt;span&gt; Premonition.Managers.GameDirector, Premonition, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Author:&lt;&#x2F;span&gt;&lt;span&gt; Framebuffer
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;License:&lt;&#x2F;span&gt;&lt;span&gt; MIT Licence
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Instantiating new scene from string path: res:&#x2F;&#x2F;Scenarios&#x2F;Intro.tscn.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;2024-09-16&lt;&#x2F;span&gt;&lt;span&gt; 20:28:56: Intro screen tween cycle is: 26.823633
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;[...]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Let&#x27;s see the syntax on the next example:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;csharp&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-csharp &quot;&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;&lt;span&gt; public static void InstantiatePathAsScene&amp;lt;T&amp;gt;(this string scenePath, out T instance) where T : Node
+&lt;&#x2F;span&gt;&lt;span&gt;        {
+&lt;&#x2F;span&gt;&lt;span&gt;            try
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                Node n = GD.Load&amp;lt;PackedScene&amp;gt;(scenePath).Instantiate();
+&lt;&#x2F;span&gt;&lt;span&gt;                instance = n as T ?? throw new ArgumentException(null, nameof(scenePath));
+&lt;&#x2F;span&gt;&lt;span&gt;                $&amp;quot;Adding scene from string path: {scenePath}&amp;quot;.ToConsole();
+&lt;&#x2F;span&gt;&lt;span&gt;            }
+&lt;&#x2F;span&gt;&lt;span&gt;            catch (Exception e)
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                $&amp;quot;Exception caught at: {e.TargetSite}\n \t{e.Message}\n \t{e.StackTrace}\n&amp;quot;.ToConsoleAsException();
+&lt;&#x2F;span&gt;&lt;span&gt;                instance = default!;
+&lt;&#x2F;span&gt;&lt;span&gt;            }
+&lt;&#x2F;span&gt;&lt;span&gt;        }
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Godot works with strings for paths. I hate this. I also had to do this operation a lot: taking a &lt;em&gt;scene&lt;&#x2F;em&gt; (basically, a class at this point), and &lt;em&gt;instantiating&lt;&#x2F;em&gt; it into the screen. I also needed to keep a reference of it to access it directly. Godot works using a tree-like structure for all objects on your screen. I have spicy opinions but &lt;em&gt;not now.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;I extended the &lt;code&gt;string&lt;&#x2F;code&gt; base type to add a method to instantiate Godot scene files from their path, directly to the tree.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can also see the syntax of the aforementioned &lt;code&gt;ToConsole()&lt;&#x2F;code&gt; syntax. I could&#x27;ve even extended &lt;code&gt;Exception&lt;&#x2F;code&gt; to implement &lt;code&gt;ToConsoleAsException();&lt;&#x2F;code&gt; and &lt;em&gt;actually have a decent stack trace.&lt;&#x2F;em&gt; That would&#x27;ve saved me from one of the clutches of all time.&lt;&#x2F;p&gt;
+&lt;p&gt;See, choosing C# was not a &lt;em&gt;myopic&lt;&#x2F;em&gt; choice.&lt;&#x2F;p&gt;
+&lt;p&gt;Heh.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;something-something-perfection&quot;&gt;something something perfection&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#something-something-perfection&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-6.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;My game has a couple bugs. Big ones. Ones that I could not fix on time. It&#x27;s now more of a tech demo than it was when I compiled it. Something happened, and I got trolled last minute. But it&#x27;s not the first time I had this happen. And I am at peace with that.&lt;&#x2F;p&gt;
+&lt;p&gt;Cause I did it. I did what I wanted to do. And, most importantly, I learned so much that for me, the most important thing is the feedback I get from the people around itch.io submitting and rating.&lt;&#x2F;p&gt;
+&lt;p&gt;One said to me just now that it&#x27;s like a surreal museum, without any gameplay. Why is it on a game jam?&lt;&#x2F;p&gt;
+&lt;p&gt;Indeed, I messed up. If it&#x27;s not evident on first sight, then I failed to explain my concept and it is unacceptable. Basic mistake.&lt;&#x2F;p&gt;
+&lt;p&gt;But I went into this &lt;em&gt;expecting&lt;&#x2F;em&gt; this to happen. It&#x27;s not an excuse for bad quality, and don&#x27;t get me wrong, I pushed for the highest quality I could do. But it&#x27;s highest quality a newbie can do. And, in their words, at least the vibe is right. And the visuals are unique.&lt;&#x2F;p&gt;
+&lt;p&gt;I take that as a W on me on visuals, at least.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-future&quot;&gt;The future&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-future&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240916-premonition&#x2F;premonition-8.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;First, this is going to go somewhere else. I don&#x27;t want to lose it.&lt;&#x2F;p&gt;
+&lt;p&gt;Second, going to try to make Godot C# less bad. For me, and anyone who really cares anyways. I want to see &lt;em&gt;good quality&lt;&#x2F;em&gt; FOSS thrive. Godot is the very rare case of FOSS not being a dog&#x27;s dinner like GIMP, impossible to pick up without a tutorial like Blender, and usable like Audacity. I really &lt;strong&gt;really&lt;&#x2F;strong&gt; want to see more of it, and now that Unity lost its trust... I bet on Godot and I do not regret it a single bit.&lt;&#x2F;p&gt;
+&lt;p&gt;And third... if you really want to make this happen... idk. I need all the help and direction I need to get into this. Or idk, really. At this point I am flying blind; but the missile knows where it is, that is because it knows where it isn&#x27;t.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Direwolf v0.2-alpha: the pack is back</title>
+        <published>2025-06-30T00:00:00+00:00</published>
+        <updated>2025-06-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://framebuffer.cl/posts/20240630-direwolf/"/>
+        <id>https://framebuffer.cl/posts/20240630-direwolf/</id>
+        
+        <content type="html" xml:base="https://framebuffer.cl/posts/20240630-direwolf/">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240630-direwolf&#x2F;20250630-direwolf-cover.png&quot; alt=&quot;Welcome to the forest.&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Artificial intelligence is like an axe. Using one without the necessary experience is hard, even dangerous, but it makes you feel powerful. As experience is gained, the more precise and effective its use becomes. It’s up to you how you use it.
+This sense of empowerment comes at a cost: skipping the training and go straight to chopping. And so, we forget how to use the axe itself.&lt;&#x2F;p&gt;
+&lt;p&gt;It is fundamental to analyse, comprehend and protocol the use of data, both used between BIM applications and outside their realm. Not knowing the fundamentals of artificial intelligence, on a very general way, makes its use irresponsible. Fundamentally, we need to work on our primitives.&lt;&#x2F;p&gt;
+&lt;p&gt;What is data? What does AI mean to &lt;strong&gt;us?&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;memo-tl-dr&quot;&gt;📝 TL;DR&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#memo-tl-dr&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;This framework proposes a single cohesive approach to talk between BIM models and&#x2F;or AI models. It translates data into a common language, interoperable with any software that implements this protocol. By normalizing information, it won’t matter which AI model or software version you use, it will just work.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;thinking-theory-of-operation&quot;&gt;🤔 Theory of Operation&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#thinking-theory-of-operation&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;There are very simple answers to the questions mentioned above.
+The AI models we use work by predict the next word we will type, based on statistics and algorithms, using the information we feed these models with. Using these &lt;em&gt;primitives&lt;&#x2F;em&gt;, models can become tools that comprehend our &lt;em&gt;natural speech&lt;&#x2F;em&gt; to perform these tasks. They understand &lt;em&gt;us.&lt;&#x2F;em&gt;  This knowledge, alongside interfaces that harness the power of this model, becomes a tool to assist, generate and check.&lt;&#x2F;p&gt;
+&lt;p&gt;During this whole process, data flows back and forth, alongside metadata about how, when, where and what is flowing. This data must be processed, cleaned, and stored for it to be useful.&lt;&#x2F;p&gt;
+&lt;p&gt;Direwolf provides a way to obtain, process and transmit this information, in such way that is both compliant with industry-standards and bespoke to BIM requirements.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wolf-direwolf-wolfden-wolfpack-and-hunter&quot;&gt;🐺 Direwolf, Wolfden, Wolfpack and Hunter&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#wolf-direwolf-wolfden-wolfpack-and-hunter&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Direwolf coordinates and obtains Wolfpack messages inside Wolfden to be transmitted and received by Hunter. An API host, database, protocol and server; respectively. In essence, this architecture mirrors what a Web server is, at an application’s scale.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Direwolf connects directly with its host’s APIs (for example, Autodesk Revit), acting as a mediator between the “inside” (the API), and “outside” (Direwolf).
+&lt;ul&gt;
+&lt;li&gt;It also handles all data processing requirements to have usable data at this level of the chain. Whether is raw or clean data, it is Direwolf’s task to deal with it.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Wolfden stores all the information generated by Direwolf inside a RAM-based cache. It uses its own kind of unique identifier, a CUID, to tag, track and retrieve information.
+&lt;ul&gt;
+&lt;li&gt;It exposes four API’s: create, read, update and delete. Nothing more.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Hunter is a server based on a hybrid architecture (REST and JSON-RCP2.0) that communicates Direwolf with a network: local or on the Internet.
+&lt;ul&gt;
+&lt;li&gt;It has its own RAM-based cache, useful to process data before passing it onto Wolfden.&lt;&#x2F;li&gt;
+&lt;li&gt;Its hybrid nature comes in the way of a translation layer, where RPC2.0 endpoints are exposed to the Web and, on the inside, they have access to the same API as Wolfden. The database is never exposed raw to the exterior.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Wolfpack is the common language of all operations, both inside and outside the Direwolf ecosystem.
+&lt;ul&gt;
+&lt;li&gt;Wolfpack messages present on any of these three entities are compatible with MCP (Model Context Protocol). This is the common language between LLMs (AI models).&lt;&#x2F;li&gt;
+&lt;li&gt;A Wolfpack message can also carry data to and from any kind of software, mainly designed for the BIM realm.&lt;&#x2F;li&gt;
+&lt;li&gt;It has a URI schema (like a website link, but specialized) to uniquely identify any property, element, parameter, task or concept available on the entire AEC world.&lt;&#x2F;li&gt;
+&lt;li&gt;It implements its own unique identification schema based on Collision-resistant Unique Identifiers, or CUID.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;identification-card-cuid&quot;&gt;🪪 CUID&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#identification-card-cuid&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;One of the most important innovations of Wolfpacks are the CUID. They balance the uniqueness and safety of a UUID, yet it implements encoded metadata, saving storage and adding a tag system.&lt;&#x2F;p&gt;
+&lt;p&gt;However, &lt;strong&gt;it is not meant to be cryptographically secure.&lt;&#x2F;strong&gt; It is based on CUID v1, and in some implementations, it uses the fingerprint and counter field to store metadata (like Autodesk Revit). This implementation has security vulnerabilities. For secure operations, CUID v2 is recommended.&lt;&#x2F;p&gt;
+&lt;p&gt;A CUID has four (4) parts:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A timestamp&lt;&#x2F;li&gt;
+&lt;li&gt;A counter
+&lt;ul&gt;
+&lt;li&gt;In Autodesk Revit, it encodes the unique identifier of the current file version as a Base36 truncated value.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;A fingerprint
+&lt;ul&gt;
+&lt;li&gt;In Autodesk Revit, it encodes the Document’s Creation GUID as a Base36 truncated value.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;A random string, of variable length.
+&lt;ul&gt;
+&lt;li&gt;In the case of Direwolf, the default is a 16-character long random string.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;globe-with-meridians-uri&quot;&gt;🌐 URI&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#globe-with-meridians-uri&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Wolfpack implements a system based on Unique Resource Identifiers (URIs) to create a virtual path to access any kind of resource inside an API.
+The schema follows this pattern:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;uri&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-uri &quot;&gt;&lt;code class=&quot;language-uri&quot; data-lang=&quot;uri&quot;&gt;&lt;span&gt; wolfpack:&#x2F;&#x2F;[developer hostname, in reverse domain format]-[version tag]&#x2F;[hierarchical]&#x2F;[path]&#x2F;[to]&#x2F;[object]?[an operation identifying character]=[operation, without spaces, as lower]&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Where the hostname&#x27;s reverse domain schema follows this example:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;uri&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-uri &quot;&gt;&lt;code class=&quot;language-uri&quot; data-lang=&quot;uri&quot;&gt;&lt;span&gt;wolfpack:&#x2F;&#x2F;com.appname.manufacturer-version&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;wolfpack:&#x2F;&#x2F;org.standariztionbody-standard.name&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;wolfpack:&#x2F;&#x2F;std.standardname-version&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;em&gt;Where std is shorthand for standard.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This taxonomical system proposes a familiar, proven and extensible schema to address anything, anywhere, no matter the implementation behind.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gear-processing&quot;&gt;⚙️ Processing&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#gear-processing&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;In a future blog post, I will detail the engine’s theory of operation. At blazingly fast speeds, it can hunt hundreds of thousands of records in milliseconds, serialize an entire Revit document in less than a second, or create a ready-to-go MCP prompt to query an AI model at any stage of the process: frontend, database, web server—anything.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240630-direwolf&#x2F;20250630-direwolf-cover2.png&quot; alt=&quot;Run through the forest&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;minidisc-the-software&quot;&gt;💽 The software&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#minidisc-the-software&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;This is not a finalized product, nor it will provide much more than just a JSON. Direwolf is a very technical project in nature, therefore it will take a while until a usable product exists.&lt;&#x2F;p&gt;
+&lt;p&gt;What is here, is an API to interact with Direwolf and all its components. Feel free to fork this repo and have some fun with it!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;warning-disclaimer&quot;&gt;⚠️ Disclaimer&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#warning-disclaimer&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+And I am not responsible of misuse of your API key.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;v-prerequisites&quot;&gt;☑️ Prerequisites&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#v-prerequisites&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;This repository contains a proof of concept for:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Direwolf Engine for Revit (2025 and up).&lt;&#x2F;li&gt;
+&lt;li&gt;Definitions for both Direwolf and Revit.&lt;&#x2F;li&gt;
+&lt;li&gt;Revit frontend with a series of tests.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;To compile, you need:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rider or Visual Studio
+&lt;ul&gt;
+&lt;li&gt;This was developed with Rider, so it might produce better results.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Autodesk Revit (2025+)
+&lt;ul&gt;
+&lt;li&gt;Needed to compile Direwolf.Revit.dll&lt;&#x2F;li&gt;
+&lt;li&gt;Implements Nice3point NuGet packages for dependencies.&lt;&#x2F;li&gt;
+&lt;li&gt;Direwolf is independent of the plugin that implements it. All it cares about is that you pass a Document as a parameter. It can run both inside an Application or a Command.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;To use, you need:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Autodesk Revit (2025+)&lt;&#x2F;li&gt;
+&lt;li&gt;The Direwolf.Revit.dll and its manifest file installed (instructions below).&lt;&#x2F;li&gt;
+&lt;li&gt;Claude Desktop and your API key.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;man-computer-available-demos&quot;&gt;👨‍💻 Available demos&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#man-computer-available-demos&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;The tests available are:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Serialize the whole document as a Wolfpack, directly from the Document, to JSON.&lt;&#x2F;li&gt;
+&lt;li&gt;Serialize the whole document as a Wolfpack, &lt;strong&gt;directly from the Wolfden&lt;&#x2F;strong&gt; (the RAM-based cache), to JSON.&lt;&#x2F;li&gt;
+&lt;li&gt;Serialize the currently selected element&#x27;s data to JSON.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;no-mouth-fog-what-is-not-available&quot;&gt;😶‍🌫️ What is not available&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#no-mouth-fog-what-is-not-available&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP integration.
+&lt;ul&gt;
+&lt;li&gt;The server still needs some work, mostly related with some bugs in the implementation.&lt;&#x2F;li&gt;
+&lt;li&gt;It might be spun off the C# codebase to use a TypeScript-based stack. It is &lt;strong&gt;much&lt;&#x2F;strong&gt; easier this way, than doing it 100% C#.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Schedules integration.
+&lt;ul&gt;
+&lt;li&gt;Needs more debugging.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;hammer-support&quot;&gt;🔨 Support&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#hammer-support&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;framebuffers&#x2F;direwolf&quot;&gt;Click here to access the GitHub repository.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is just a conceptual protocol. It is not ready for any production environment, and I am not responsible for its use on production Documents or bricking a Revit installation.  However, if you do, I’d love to hear from you by submitting an issue on this repository. I can’t test every single edge case or platform.&lt;&#x2F;p&gt;
+&lt;p&gt;If you’re interested in Direwolf, feel free to create a fork of this repository and play with it! If you want to support the project, you can submit a pull request. This is a passion project I want to share with the world. And if there’s interest for it, I’m glad to help make Direwolf a complete platform.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Are the computer scenes in The Net (1995) real?</title>
+        <published>2024-07-16T00:00:00+00:00</published>
+        <updated>2024-07-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://framebuffer.cl/posts/20240716-thenet/"/>
+        <id>https://framebuffer.cl/posts/20240716-thenet/</id>
+        
+        <content type="html" xml:base="https://framebuffer.cl/posts/20240716-thenet/">&lt;p&gt;This is a much more light-hearted blog post. Skip if you&#x27;re for more serious stuff.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;i-went-into-a-5-hour-hyperfocus-sidequest-because-i-had-to-know-if-this-scene-was-accurate&quot;&gt;I went into a 5 HOUR HYPERFOCUS SIDEQUEST because I HAD TO KNOW if this scene was accurate&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#i-went-into-a-5-hour-hyperfocus-sidequest-because-i-had-to-know-if-this-scene-was-accurate&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;So, I wondered after the last time I watched this scene couple days ago &lt;em&gt;(yes, still The Net from 1995)&lt;&#x2F;em&gt;: how real is it?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;The question:&lt;&#x2F;strong&gt; Is it valid 68k&#x2F;PPC ASM? Is it from the game itself?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-setup&quot;&gt;The setup&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-setup&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Basilisk II, Quadra 900, 68030+FPU, 128MB (!) RAM, System 7.5.3
+Because Basilisk is &lt;em&gt;finnicky, to put it very, very very mildly&lt;&#x2F;em&gt;, I couldn&#x27;t trigger MacsBug &lt;em&gt;directly&lt;&#x2F;em&gt;, so I used &lt;strong&gt;MacNosy II&lt;&#x2F;strong&gt; to debug. Alongside this, I got ResEdit to complete the software kit to tear Classic Mac OS software down.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-process&quot;&gt;The process&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-process&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Get Wolf3D for Mac OS.&lt;&#x2F;li&gt;
+&lt;li&gt;Do the satanic incantations to get MacNosy to run. I don&#x27;t know anything about what I did, or how I should do anything, but I opened the Data Table. I mean, there&#x27;s some ASM there.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;the-results&quot;&gt;The results&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#the-results&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If you crop the window to the first 3 icons on ResEdit, it matches the icons!&lt;&#x2F;li&gt;
+&lt;li&gt;The instructions, at least the ASCII, &lt;em&gt;indeed is valid &lt;strong&gt;68k&lt;&#x2F;strong&gt; ASM!&lt;&#x2F;em&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Is it from the game? I don&#x27;t know, couldn&#x27;t make it run any further. Maybe if I had more braincell reception I could go further but it&#x27;s 01:30am.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;some-extra-observations&quot;&gt;Some extra observations&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#some-extra-observations&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240716-thenet&#x2F;thenet-2.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;It looks like it&#x27;s running on a Power Macintosh 8xxx. On the &lt;em&gt;final retail version&lt;&#x2F;em&gt; of Wolf3D you have fat binaries. If I ran it on SheepShaver as a PowerMac, it would&#x27;ve defaulted to the PPC version &lt;em&gt;for obvious reasons.&lt;&#x2F;em&gt; This is why I used Basilisk II and a Quadra ROM instead.&lt;&#x2F;li&gt;
+&lt;li&gt;If you get an &lt;em&gt;A&#x2F;ROSE unimplemented trap&lt;&#x2F;em&gt;, it&#x27;s because it installed an extension for the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;A&#x2F;ROSE&quot;&gt;Apple Real Time Operative System Extension&lt;&#x2F;a&gt;. It came with the networking drivers. Delete it before rebooting, or don&#x27;t install networking support.&lt;&#x2F;li&gt;
+&lt;li&gt;About A&#x2F;ROSE, it&#x27;s a &lt;em&gt;fucking Real Time OS, with &lt;strong&gt;pre-emptive multitasking when the host OS didn&#x27;t even have it&lt;&#x2F;strong&gt;.&lt;&#x2F;em&gt; And even funnier, it&#x27;s meant to run on 68k&#x27;s inside NuBus cards to &quot;make it easier to develop NuBus expansion cards for the Mac.&quot; I find it &lt;em&gt;so overengineered&lt;&#x2F;em&gt; to have such a level of &lt;em&gt;computer exuberance and debauchery&lt;&#x2F;em&gt; for your stupid Ethernet card. Truly a fascinating side quest to someday come back to.&lt;&#x2F;li&gt;
+&lt;li&gt;I&#x27;m surprised about the accuracy of this film to System 7&#x27;s UI. They &lt;strong&gt;had&lt;&#x2F;strong&gt; to have someone coding or recreating every scene, or they indeed had some real systems analyst doing the scenes. You can see &lt;em&gt;real&lt;&#x2F;em&gt; Chooser menus, &lt;em&gt;real&lt;&#x2F;em&gt; MacsBug, &lt;em&gt;real&lt;&#x2F;em&gt; Windows 3.1 terminals. Now, of course you have &lt;em&gt;some mocked up things on top&lt;&#x2F;em&gt;... but they look convincing enough for someone &lt;em&gt;that knows and notices those details.&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Yes the monitor there is, indeed, a Radius monitor. Got to have the best gear for &lt;em&gt;hacking!&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;I could go on but the boyfriend would complain that I stayed up too late. Oh well...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Some amusing things on MacNosy</title>
+        <published>2024-04-16T00:00:00+00:00</published>
+        <updated>2024-04-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://framebuffer.cl/posts/20240716-macnosy/"/>
+        <id>https://framebuffer.cl/posts/20240716-macnosy/</id>
+        
+        <content type="html" xml:base="https://framebuffer.cl/posts/20240716-macnosy/">&lt;h1 id=&quot;some-amusing-things-on-macnosy&quot;&gt;some amusing things on MacNosy&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#some-amusing-things-on-macnosy&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I know this is software that many might&#x27;ve used, or that it&#x27;s still being used for homebrew&#x2F;modding&#x2F;maintaining(?????) Classic MacOS software.&lt;&#x2F;p&gt;
+&lt;p&gt;But what surprised me the most was the verbosity and tone of most of the UI and documentation. I&#x27;m going to show some of the most intriguing I found in a night of screwing around.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240716-macnosy&#x2F;macnosy-1.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240716-macnosy&#x2F;macnosy-2.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;framebuffer.cl&#x2F;posts&#x2F;20240716-macnosy&#x2F;macnosy-4.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
