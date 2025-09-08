@@ -4,15 +4,19 @@ date = "2025-06-30"
 
 [taxonomies]
 tags = ["direwolf"]
+
+[extra]
+cover = "20250630-direwolf-cover.png"
+cover_alt = "Welcome to the forest."
 +++
 
-![Welcome to the forest.](https://raw.githubusercontent.com/Framebuffers/Framebuffers.github.io/cfd11c927a16470790c5d9c6cf5ef922eafde112/posts/20250630-direwolf-cover.png)
+![Welcome to the forest.](20250630-direwolf-cover.png)
 
 
 Artificial intelligence is like an axe. Using one without the necessary experience is hard, even dangerous, but it makes you feel powerful. As experience is gained, the more precise and effective its use becomes. It’s up to you how you use it.
 This sense of empowerment comes at a cost: skipping the training and go straight to chopping. And so, we forget how to use the axe itself.
 
-It is fundamental to analyze, comprehend and protocol the use of data, both used between BIM applications and outside their realm. Not knowing the fundamentals of artificial intelligence, on a very general way, makes its use irresponsible. Fundamentally, we need to work on our primitives.
+It is fundamental to analyse, comprehend and protocol the use of data, both used between BIM applications and outside their realm. Not knowing the fundamentals of artificial intelligence, on a very general way, makes its use irresponsible. Fundamentally, we need to work on our primitives.
 
 What is data? What does AI mean to **us?**
 
@@ -93,7 +97,7 @@ In a future blog post, I will detail the engine’s theory of operation. At blaz
 
 ---
 
-![Run through the forest](https://raw.githubusercontent.com/Framebuffers/Framebuffers.github.io/ffcb9c49d469bdf254e9a2737e2fde4d4718d432/content/posts/20250630-direwolf-cover2.png)
+![Run through the forest](20250630-direwolf-cover2.png)
 
 ## 💽 The software
 

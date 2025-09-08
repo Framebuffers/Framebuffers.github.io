@@ -4,13 +4,14 @@ date = "2025-09-16"
 
 [taxonomies]
 tags = ["gamedev", "premonition"]
+
+[extra]
+cover = "premonition-5.png"
 +++
 
 These are the thoughts I made when I did my first game jam: Brackeys 12. It's not a professional write-up, so don't expect anything more than just the raw experience of doing my first game.
 
-# i did a game in less than a day
-
-![](../../static/20240916-premonition/premonition-5.png)
+# I did a game in less than a day
 
 And you can play it, right now.
 *not endorsed by cohost at all. it just happens to be pretty on topic.
@@ -22,11 +23,11 @@ And you can play it, right now.
 You don't know calm until you're knee deep inside the storm.
 </p>
 
-Please go rate it on the link above, and please _be absolutely legit honest_ with it. I cannot be better if you sugarcoat feedback. Now, if you wanna know the whole story, carry on:
+Please go rate it on the link above, and please _be absolutely legit honest_ with it. I cannot be better if you sugar-coat feedback. Now, if you want to know the whole story, carry on:
 
 ## Summary
 
-![](../../static/20240916-premonition/premonition-4.png)
+![](premonition-4.png)
 
 You're in your house, surrounded by the calm of your memories, stored inside each of the things you own. Before you know it, they start disappearing until you are alone. And all you have left are the fleeting memories, and the realisation that these might go away.
 
@@ -34,7 +35,7 @@ Losing your mind is the most terrifying storm you can go through.
 
 ## Gameplay loop
 
-![](../../static/20240916-premonition/premonition-7.png)
+![](premonition-7.png)
 
 - You are inside a house. It's full of things.
   - Get near them and some text will appear in the top-right corner. 
@@ -62,10 +63,10 @@ Losing your mind is the most terrifying storm you can go through.
 
 ### The Subway approach
 
-![](../../static/20240916-premonition/premonition-1.png)
+![](premonition-1.png)
 
 <p style="color: white; font-size: 14px; font-weight: bold; text-align: center">
-Spend your time building ingredients to cook different meals, but keep your focus on makind sandwiches.
+Spend your time building ingredients to cook different meals, but keep your focus on making sandwiches.
 </p>
 
 Or, _think modular but have a set goal in mind._ 
@@ -84,7 +85,7 @@ But Frame, how did this impact your game?
 
 ### Playing by ear...
 
-![](../../static/20240916-premonition/premonition-2.png)
+![](premonition-2.png)
 
 I did not read _anything on what to do or don't on these kinds of competitions._ I did not learn the _axioms, laws, canons and customs_ of game development. I did not learn the sheet to this tune. **I played 100% by ear.**
 
@@ -99,7 +100,7 @@ I DID NOT START DEVELOPING GAMEPLAY UNTIL 8 HOURS BEFORE THE DEADLINE.
 
 ...but I had every single ingredient to cook something in half that time. And I did. How?
 
-I planned around this by thinking: ok, I know my concept was the "deja-vu after realising your demise". I played to my strengths. I knew my strength was the environment and map. So, I did build a house using the same architecture tools I used to use. I exported to OBJ (not knowing my software did not export using quads, but triangles, so the geometry exploded on import. whoops). What can I do with that? uhhh, lighting! let's do lighting. What's the cheapest aesthetic I can develop that's also interesting? oh, the one I have been working on!
+I planned around this by thinking: ok, I know my concept was the "deja-vu after realising your demise". I played to my strengths. I knew my strength was the environment and map. So, I did build a house using the same architecture tools I used to use. I exported to OBJ (not knowing my software did not export using quads, but triangles, so the geometry exploded on import. whoops). What can I do with that? uhm, lighting! let's do lighting. What's the cheapest aesthetic I can develop that's also interesting? oh, the one I have been working on!
 
 I cooked with whatever I had in the fridge.
 
@@ -109,7 +110,7 @@ Yet, I didn't have a single route hooked up.
 
 Well, screw it. I chose the one ending that was the more _complex_ of them all. The more _interesting_, yet more code-demanding of them all: **the memory loss route.**
 
-Turns out the theme fit perfectly with the sad demise of cohost, and the memories I'll have. [And this post](https://cohost.org/HunnyBon/post/7730825-empty) by @HunnyBon kinda sealed the deal. 
+Turns out the theme fit perfectly with the sad demise of cohost, and the memories I'll have. [And this post, now accessible via Wayback Machine ](https://web.archive.org/web/20241113000521/https://cohost.org/HunnyBon/post/7730825-empty) by @HunnyBon kind of sealed the deal. 
 
 In my defence, this idea predated me knowing about the demise of cohost by, at least, 2 days. It may have marinated on the back of my head, but it was not my first main idea. The main idea was [In The Air Tonight Simulator 2024](https://www.youtube.com/watch?v=YkADj0TPrJA). 
 
@@ -117,7 +118,7 @@ In my defence, this idea predated me knowing about the demise of cohost by, at l
 
 Now, the fun part: the coding.
 
-## RNG can be your angle or yuo devil,,,,
+## RNG can be your angle or your devil,,,,
 
 Just to be extra dramatic:
 <p style="color: white; font-size: 14px; font-weight: bold; text-align: center">
@@ -136,7 +137,7 @@ Throughout gaming history, in general, there's been so many examples of RNG bein
 
 ### The RNG system
 
-I'm gonna reveal two things:
+I'm going to reveal two things:
 - The game is heavily randomised. It rolls a difficulty level between 1-15, and each routine rolls a number between 1-20. If the rolled number is less or equal than the difficulty level, it follows the _unhappy_ path.
 - **Every exception thrown redirects to the dialogue generation code.** Suddenly I didn't have any bugs! Several examples of this technique have been done _specifically to avoid game-crashing bugs_. [Here is one I love the most, because I love the 68000's trap system.](https://www.youtube.com/watch?v=i9bkKw32dGw).
 
@@ -144,7 +145,7 @@ I'm gonna reveal two things:
 
 Playing to my strengths. And the fact I cannot learn a new language in less than a week. I am not a good programmer, but I am a _diabolical_ programmer. 
 
-I'm gonna reveal a very simple, yet _cringe-worthy and horrifyingly clever_ tricks I pulled.
+I'm going to reveal a very simple, yet _cringe-worthy and horrifyingly clever_ tricks I pulled.
 
 ### Extensions are your best friend
 
@@ -224,7 +225,7 @@ Heh.
 
 ## something something perfection
 
-![](../../static/20240916-premonition/premonition-6.png)
+![](premonition-6.png)
 
 My game has a couple bugs. Big ones. Ones that I could not fix on time. It's now more of a tech demo than it was when I compiled it. Something happened, and I got trolled last minute. But it's not the first time I had this happen. And I am at peace with that.
 
@@ -240,10 +241,10 @@ I take that as a W on me on visuals, at least.
 
 ## The future
 
-![](../../static/20240916-premonition/premonition-8.png)
+![](premonition-8.png)
 
-First, this is gonna go somewhere else. I don't want to lose it. 
+First, this is going to go somewhere else. I don't want to lose it. 
 
-Second, gonna try to make Godot C# less bad. For me, and anyone who really cares anyways. I wanna see _good quality_ FOSS thrive. Godot is the very rare case of FOSS not being a dog's dinner like GIMP, impossible to pick up without a tutorial like Blender, and usable like Audacity. I really **really** wanna see more of it, and now that Unity lost its trust... I bet on Godot and I do not regret it a single bit.
+Second, going to try to make Godot C# less bad. For me, and anyone who really cares anyways. I want to see _good quality_ FOSS thrive. Godot is the very rare case of FOSS not being a dog's dinner like GIMP, impossible to pick up without a tutorial like Blender, and usable like Audacity. I really **really** want to see more of it, and now that Unity lost its trust... I bet on Godot and I do not regret it a single bit.
 
 And third... if you really want to make this happen... idk. I need all the help and direction I need to get into this. Or idk, really. At this point I am flying blind; but the missile knows where it is, that is because it knows where it isn't.
